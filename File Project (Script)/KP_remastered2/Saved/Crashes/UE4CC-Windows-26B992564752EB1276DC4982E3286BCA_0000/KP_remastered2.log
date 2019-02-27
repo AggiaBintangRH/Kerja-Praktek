@@ -1,0 +1,1092 @@
+﻿Log file open, 07/21/18 13:14:08
+LogInit:Display: Running engine for game: KP_remastered2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(540098676) SRandInit(540098676).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 5.666517
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.21-06.14.10:608][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.21-06.14.10:608][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.21-06.14.10:775][  0]LogInit: Computer: DESKTOP-USEAEF3
+[2018.07.21-06.14.10:775][  0]LogInit: User: DigitalSilence
+[2018.07.21-06.14.10:775][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.07.21-06.14.10:775][  0]LogInit: High frequency timer resolution =2.648433 MHz
+[2018.07.21-06.14.10:778][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.07.21-06.14.10:778][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.21-06.14.10:778][  0]LogMemory: Process Physical Memory: 271.18 MB used, 271.18 MB peak
+[2018.07.21-06.14.10:778][  0]LogMemory: Process Virtual Memory: 258.48 MB used, 258.48 MB peak
+[2018.07.21-06.14.10:778][  0]LogMemory: Physical Memory: 4597.60 MB used,  3474.94 MB free, 8072.54 MB total
+[2018.07.21-06.14.10:778][  0]LogMemory: Virtual Memory: 4768.73 MB used,  3474.94 MB free, 134217728.00 MB total
+[2018.07.21-06.14.13:288][  0]LogInit: Using OS detected language (en-GB).
+[2018.07.21-06.14.13:288][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.21-06.14.13:595][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.07.21-06.14.26:005][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.21-06.14.28:026][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 930MX' (Feature Level 11_0)
+[2018.07.21-06.14.28:026][  0]LogD3D11RHI:       2010/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.07.21-06.14.28:064][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.07.21-06.14.28:064][  0]LogD3D11RHI:       128/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.07.21-06.14.28:090][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.21-06.14.28:090][  0]LogD3D11RHI:       0/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.21-06.14.28:091][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.21-06.14.28:137][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.21-06.14.28:137][  0]LogD3D11RHI:     GPU DeviceId: 0x134e (for the marketing name, search the web for "GPU Device Id")
+[2018.07.21-06.14.28:137][  0]LogWindows: EnumDisplayDevices:
+[2018.07.21-06.14.28:137][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.07.21-06.14.28:137][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:1)
+[2018.07.21-06.14.28:138][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.07.21-06.14.28:138][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.21-06.14.28:138][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 930MX
+[2018.07.21-06.14.28:138][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.21-06.14.28:138][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.21-06.14.28:138][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.07.21-06.14.28:282][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.21-06.14.28:844][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 4)
+[2018.07.21-06.14.28:985][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Intermediate/Shaders/WorkingDirectory/18552/).
+[2018.07.21-06.14.28:986][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Digital_Silence/AppData/Local/Temp/UnrealShaderWorkingDir/A28C4378475DDBC563B71595BEDCBFD3/'.
+[2018.07.21-06.14.29:003][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.07.21-06.14.41:412][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.21-06.14.41:494][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.07.21-06.14.41:571][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.21-06.14.41:649][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.07.21-06.14.41:835][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.07.21-06.14.41:916][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.21-06.14.41:999][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.21-06.14.42:083][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.21-06.14.42:176][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.07.21-06.14.42:290][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.07.21-06.14.42:386][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.21-06.14.42:460][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.21-06.14.42:546][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.21-06.14.42:624][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.21-06.14.42:721][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.21-06.14.42:902][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.21-06.14.42:902][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.21-06.14.42:984][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.07.21-06.14.43:215][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.07.21-06.14.43:251][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.07.21-06.14.43:342][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.21-06.14.43:441][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.21-06.14.43:512][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.21-06.14.43:610][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.07.21-06.14.43:610][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.07.21-06.14.45:682][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.07.21-06.14.47:029][  0]LogDerivedDataCache: Loaded boot cache 1.33s 90MB C:/Users/Digital_Silence/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.07.21-06.14.47:029][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Digital_Silence/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.07.21-06.14.47:030][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.21-06.14.47:030][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.21-06.14.47:030][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.21-06.14.47:030][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.21-06.14.47:121][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.21-06.14.47:171][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.21-06.14.47:228][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.21-06.14.47:288][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.21-06.14.47:497][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.21-06.14.47:497][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.21-06.14.57:868][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.21-06.14.59:541][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.07.21-06.15.00:875][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.21-06.15.01:250][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.21-06.15.01:405][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.21-06.15.01:405][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.07.21-06.15.01:405][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.07.21-06.15.09:776][  0]LogNetVersion: KP_remastered2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3294817228)
+[2018.07.21-06.15.10:146][  0]LogAssetRegistry: FAssetRegistry took 0.0586 seconds to start up
+[2018.07.21-06.15.10:652][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.360555 seconds
+[2018.07.21-06.15.10:658][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.07.21-06.15.10:658][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.07.21-06.15.10:658][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.21-06.15.10:782][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.07.21-06.15.47:356][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.21-06.15.47:524][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.21-06.15.49:881][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.07.21-06.15.51:246][  0]SourceControl: Info Source control is disabled
+[2018.07.21-06.15.51:263][  0]SourceControl: Info Source control is disabled
+[2018.07.21-06.15.51:449][  0]SourceControl: Info Source control is disabled
+[2018.07.21-06.15.51:571][  0]SourceControl: Info Source control is disabled
+[2018.07.21-06.15.51:951][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Plugins/DialogueSystem/Content/Icons/QuestBookEditor/icon_Add_Quest_40x.png' error.
+[2018.07.21-06.15.51:951][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/DialogueSystem/Content/Icons/QuestBookEditor/icon_Add_Quest_40x.png
+[2018.07.21-06.15.54:742][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.21-06.15.56:438][  0]LogEngine: Initializing Engine...
+[2018.07.21-06.15.56:487][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.21-06.15.57:812][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.21-06.15.57:812][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.21-06.15.58:356][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.21-06.15.58:658][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.15.58:718][  0]LogInit: FAudioDevice initialized.
+[2018.07.21-06.15.58:781][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Digital_Silence/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.07.21-06.15.58:803][  0]LogInit: Texture streaming: Enabled
+[2018.07.21-06.16.00:007][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.21-06.16.01:398][  0]LogInit: Transaction tracking system initialized
+[2018.07.21-06.16.03:630][  0]BlueprintLog: New page: Editor Load
+[2018.07.21-06.16.08:651][  0]LocalizationService: Info Localization service is disabled
+[2018.07.21-06.16.11:578][  0]LogConsoleResponse:Display: 
+[2018.07.21-06.16.16:883][  0]LogFileCache: Scanning file cache for directory 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/' took 0.16s
+[2018.07.21-06.16.16:883][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.21-06.16.16:883][  0]LogCook:Display: Mobile HDR setting 1
+[2018.07.21-06.16.25:436][  0]SourceControl: Info Source control is disabled
+[2018.07.21-06.16.25:510][  0]Cmd: MAP LOAD FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.21-06.16.25:771][  0]LightingResults: New page: Lighting Build
+[2018.07.21-06.16.26:057][  0]MapCheck: New page: Map Check
+[2018.07.21-06.16.26:057][  0]LightingResults: New page: Lighting Build
+[2018.07.21-06.16.32:286][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.07.21-06.16.32:793][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.21-06.16.32:933][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.21-06.16.33:009][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.795ms to complete.
+[2018.07.21-06.16.33:009][  0]LogFileHelpers: Loading map 'MainMenu' took 7.521
+[2018.07.21-06.16.37:945][  0]LogCollectionManager: Loaded 0 collections in 0.002013 seconds
+[2018.07.21-06.16.39:090][  0]LogFileCache: Scanning file cache for directory 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/Collections/' took 0.01s
+[2018.07.21-06.16.39:090][  0]LogFileCache: Scanning file cache for directory 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/Developers/DigitalSilence/Collections/' took 0.01s
+[2018.07.21-06.16.39:090][  0]LogFileCache: Scanning file cache for directory 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/Collections/' took 0.01s
+[2018.07.21-06.16.39:090][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.07.21-06.16.39:161][  0]LogContentBrowser: Native class hierarchy populated in 0.0315 seconds. Added 2342 classes and 496 folders.
+[2018.07.21-06.16.39:575][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.07.21-06.16.42:741][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.07.21-06.16.42:965][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.07.21-06.16.44:905][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.07.21-06.16.45:202][  0]LogSlate: Took 0.061205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.21-06.16.45:233][  0]LogSlate: Took 0.028467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.21-06.16.45:379][  0]LogSlate: Took 0.058734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.21-06.16.46:689][  0]LogRenderer: Reallocating scene render targets to support 856x380 NumSamples 1 (Frame:1).
+[2018.07.21-06.16.48:928][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.07.21-06.16.49:084][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.07.21-06.16.49:084][  0]LogLoad: (Engine Initialization) Total time: 181.81 seconds
+[2018.07.21-06.16.49:084][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.63 seconds
+[2018.07.21-06.16.49:084][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.07.21-06.16.49:495][  0]LogOcInput: OculusInput pre-init called
+[2018.07.21-06.16.49:495][  0]LogHMD: Starting GearVRController plugin
+[2018.07.21-06.16.49:654][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.21-06.16.49:955][  0]LogSlate: Took 0.049105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.21-06.16.50:651][  3]LogAssetRegistry: Asset discovery search completed in 100.5276 seconds
+[2018.07.21-06.16.50:654][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.21-06.16.50:654][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2018.07.21-06.17.49:220][461]LogHttp:Warning: 0000024146ED7700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.17.49:220][461]LogHttp:Warning: 0000024146ED7700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.17.49:220][461]LogHttp:Warning: 0000024146ED7700: libcurl info message cache 1 (Closing connection 0)
+[2018.07.21-06.18.17:755][515]LogSlate: Took 0.000571 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.21-06.18.18:927][515]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.21-06.18.32:987][515]LogTexture:Display: Building textures: 5148_3 (AutoDXT, 8X8)
+[2018.07.21-06.18.33:028][515]LogTexture:Display: Building textures: 5152_3 (AutoDXT, 8X8)
+[2018.07.21-06.18.33:056][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/5/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_4E78D72E43301A2171735DA9B2B25__7EA78039AEB9316A98318DBC73CCF7B798FBAF26.udd.
+[2018.07.21-06.18.33:056][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/5/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_4E78D72E43301A2171735DA9B2B25__7EA78039AEB9316A98318DBC73CCF7B798FBAF26.udd.
+[2018.07.21-06.18.33:056][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_AutoDXT_4E78D72E43301A2171735DA9B2B25__7EA78039AEB9316A98318DBC73CCF7B798FBAF26.
+[2018.07.21-06.18.33:056][515]LogMaterial: Missing cached shader map for material Material_185, compiling. 
+[2018.07.21-06.18.33:135][515]LogTexture:Display: Building textures: 5152_2 (AutoDXT, 8X8)
+[2018.07.21-06.18.33:135][515]LogTexture:Display: Building textures: 5148_2 (AutoDXT, 8X8)
+[2018.07.21-06.18.33:138][515]LogMaterial: Missing cached shader map for material Material_183, compiling. 
+[2018.07.21-06.18.33:192][515]LogTexture:Display: Building textures: 5143_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.18.34:009][515]LogTexture:Display: Building textures: 5139_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.18.34:685][515]LogMaterial: Missing cached shader map for material Material_181, compiling. 
+[2018.07.21-06.18.34:768][515]LogTexture:Display: Building textures: 5134_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.18.35:717][515]LogTexture:Display: Building textures: 5130_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.18.36:364][515]LogMaterial: Missing cached shader map for material Material_179, compiling. 
+[2018.07.21-06.18.36:396][515]LogStaticMesh: Building static mesh Laci...
+[2018.07.21-06.18.36:458][515]LogStaticMesh: Built static mesh [0.07s] /Game/Indoor/Laci.Laci
+[2018.07.21-06.18.36:505][515]LogTexture:Display: Building textures: It_035_Kitchen (AutoDXT, 64X64)
+[2018.07.21-06.18.36:516][515]LogMaterial: Missing cached shader map for material It_035_Kitchen_mat, compiling. 
+[2018.07.21-06.18.36:935][515]LogTexture:Display: Building textures: eb_dresser_01_n (BC5, 2048X2048)
+[2018.07.21-06.18.38:096][515]LogTexture:Display: Building textures: eb_dresser_01_g (AutoDXT, 2048X2048)
+[2018.07.21-06.18.41:693][515]LogTexture:Display: Building textures: eb_dresser_01_c (AutoDXT, 2048X2048)
+[2018.07.21-06.18.47:532][515]LogMaterial: Missing cached shader map for material eb_dresser_02, compiling. 
+[2018.07.21-06.18.47:567][515]LogStaticMesh: Building static mesh eb_dresser_01...
+[2018.07.21-06.18.47:617][515]LogStaticMesh: Built static mesh [0.05s] /Game/Indoor/eb_dresser_01.eb_dresser_01
+[2018.07.21-06.18.47:730][515]LogTexture:Display: Building textures: 6182_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.18.48:730][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/9/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_DD3AB5CF4B9178D456A0AC994B489__491448568FFA91459FADCF3D1041640A600A25BF.udd.
+[2018.07.21-06.18.48:730][515]LogTexture:Display: Building textures: 6178_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.18.49:521][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_BB0283ED4F27D8122FCA04B54B711__A88E86A12835E86CB5964C684B8B4FFD848EEFD6.udd.
+[2018.07.21-06.18.49:521][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_BB0283ED4F27D8122FCA04B54B711__A88E86A12835E86CB5964C684B8B4FFD848EEFD6.udd.
+[2018.07.21-06.18.49:521][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_AutoDXT_BB0283ED4F27D8122FCA04B54B711__A88E86A12835E86CB5964C684B8B4FFD848EEFD6.
+[2018.07.21-06.18.49:522][515]LogMaterial: Missing cached shader map for material Material_238, compiling. 
+[2018.07.21-06.18.50:620][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/7/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_BB0283ED4F27D8122FCA04B54B711__69CC76E7FC1D6E89391A31D16AF10378959D0E80.udd.
+[2018.07.21-06.18.50:620][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/7/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_BB0283ED4F27D8122FCA04B54B711__69CC76E7FC1D6E89391A31D16AF10378959D0E80.udd.
+[2018.07.21-06.18.50:620][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_AutoDXT_BB0283ED4F27D8122FCA04B54B711__69CC76E7FC1D6E89391A31D16AF10378959D0E80.
+[2018.07.21-06.18.50:620][515]LogTexture:Display: Building textures: 6172_2 (BGRA8, 8102X4556)
+[2018.07.21-06.18.54:948][515]LogMaterial: Missing cached shader map for material Material_235, compiling. 
+[2018.07.21-06.18.54:974][515]LogStaticMesh: Building static mesh DSPaint...
+[2018.07.21-06.18.54:977][515]LogStaticMesh: Built static mesh [0.00s] /Game/Indoor/DSPaint.DSPaint
+[2018.07.21-06.18.55:035][515]LogTexture:Display: Building textures: 4669_3 (AutoDXT, 8X8)
+[2018.07.21-06.18.55:036][515]LogTexture:Display: Building textures: 4659_2 (AutoDXT, 8X8)
+[2018.07.21-06.18.55:081][515]LogTexture:Display: Building textures: 4655_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.18.55:891][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/8/5/PHYSX_68E961F5D7B04A1C84A67D46CA8B36E3_PHYSXPC_39DA96404E2266E1DADA27A4CB22F44__13CE87D8896B7BBBAEBA994DB8D575ED9A0388BB.udd.
+[2018.07.21-06.18.55:891][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/8/5/PHYSX_68E961F5D7B04A1C84A67D46CA8B36E3_PHYSXPC_39DA96404E2266E1DADA27A4CB22F44__13CE87D8896B7BBBAEBA994DB8D575ED9A0388BB.udd.
+[2018.07.21-06.18.55:891][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_68E961F5D7B04A1C84A67D46CA8B36E3_PhysXPC_39DA96404E2266E1DADA27A4CB22F44__13CE87D8896B7BBBAEBA994DB8D575ED9A0388BB.
+[2018.07.21-06.18.55:891][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/8/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_39DA96404E2266E1D__9FE1BEEF2416F8C24B61F844C1E6209831480304.udd.
+[2018.07.21-06.18.55:907][515]LogMaterial: Missing cached shader map for material Material_147, compiling. 
+[2018.07.21-06.18.55:932][515]LogTexture:Display: Building textures: 4649_2 (AutoDXT, 8X8)
+[2018.07.21-06.18.55:981][515]LogTexture:Display: Building textures: 4645_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.18.56:746][515]LogMaterial: Missing cached shader map for material Material_145, compiling. 
+[2018.07.21-06.18.56:775][515]LogStaticMesh: Building static mesh Cangkir...
+[2018.07.21-06.19.13:206][515]LogStaticMesh: Built static mesh [16.43s] /Game/Indoor/Cangkir.Cangkir
+[2018.07.21-06.19.13:209][515]LogTexture:Display: Building textures: It_032_bureau (AutoDXT, 64X64)
+[2018.07.21-06.19.13:218][515]LogMaterial: Missing cached shader map for material It_032_mat, compiling. 
+[2018.07.21-06.19.13:712][515]LogTexture:Display: Building textures: It_033_bookshelf (AutoDXT, 64X64)
+[2018.07.21-06.19.13:762][515]LogMaterial: Missing cached shader map for material It_033_bookshelf_mat, compiling. 
+[2018.07.21-06.19.13:872][515]LogStaticMesh: Building static mesh Bookshelf...
+[2018.07.21-06.19.13:900][515]LogStaticMesh: Built static mesh [0.12s] /Game/Indoor/Bookshelf.Bookshelf
+[2018.07.21-06.19.13:955][515]LogTexture:Display: Building textures: 5148_5 (AutoDXT, 8X8)
+[2018.07.21-06.19.13:955][515]LogTexture:Display: Building textures: 5152_5 (AutoDXT, 8X8)
+[2018.07.21-06.19.13:984][515]LogMaterial: Missing cached shader map for material Material_189, compiling. 
+[2018.07.21-06.19.14:008][515]LogTexture:Display: Building textures: 5152_4 (AutoDXT, 8X8)
+[2018.07.21-06.19.14:008][515]LogTexture:Display: Building textures: 5148_4 (AutoDXT, 8X8)
+[2018.07.21-06.19.14:011][515]LogMaterial: Missing cached shader map for material Material_187, compiling. 
+[2018.07.21-06.19.14:126][515]LogTexture:Display: Building textures: T_Shelving_M (AutoDXT, 2048X2048)
+[2018.07.21-06.19.15:326][515]LogTexture:Display: Building textures: T_Shelving_N (BC5, 2048X2048)
+[2018.07.21-06.19.16:568][515]LogTexture:Display: Building textures: T_Wood (DXT1, 2048X2048)
+[2018.07.21-06.19.37:680][515]LogTexture:Display: Building textures: T_Wood_S (AutoDXT, 2048X2048)
+[2018.07.21-06.19.47:658][515]LogMaterial: Missing cached shader map for material M_Shelving, compiling. 
+[2018.07.21-06.19.47:811][515]LogStaticMesh: Building static mesh SM_Shelving...
+[2018.07.21-06.19.47:827][515]LogStaticMesh: Built static mesh [0.02s] /Game/ArchVis/Mesh/SM_Shelving.SM_Shelving
+[2018.07.21-06.19.48:103][515]LogTexture:Display: Building textures: T_SlidingDoor_AOMask (DXT1, 2048X2048)
+[2018.07.21-06.19.51:324][515]LogTexture:Display: Building textures: T_SlidingDoor_N (BC5, 2048X2048)
+[2018.07.21-06.19.52:496][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/4/TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_AE33F33B42C8C10B451EFF87B66BD9CB___9C728C7D803E60F17055E6FFF2055AD478819AE2.udd.
+[2018.07.21-06.19.52:496][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/4/TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_AE33F33B42C8C10B451EFF87B66BD9CB___9C728C7D803E60F17055E6FFF2055AD478819AE2.udd.
+[2018.07.21-06.19.52:496][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_AE33F33B42C8C10B451EFF87B66BD9CB___9C728C7D803E60F17055E6FFF2055AD478819AE2.
+[2018.07.21-06.19.52:496][515]LogTexture:Display: Building textures: T_SlidingDoor_M (DXT1, 2048X2048)
+[2018.07.21-06.19.53:239][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/8/5/TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_AE33F33B42C8C10B451EFF87B66BD9CB___1936CB16DABC7A80671C6071820707EC04AC6FF8.udd.
+[2018.07.21-06.19.53:246][515]LogMaterial: Missing cached shader map for material M_SlidingDoor_Mat, compiling. 
+[2018.07.21-06.19.53:293][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/6/0/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_8692D55442FF064DDEA95BB39FC634F1__73299C82A1D8E98F84FFFB68EBFD33BD07771A89.udd.
+[2018.07.21-06.19.53:293][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/6/0/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_8692D55442FF064DDEA95BB39FC634F1__73299C82A1D8E98F84FFFB68EBFD33BD07771A89.udd.
+[2018.07.21-06.19.53:293][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_8692D55442FF064DDEA95BB39FC634F1__73299C82A1D8E98F84FFFB68EBFD33BD07771A89.
+[2018.07.21-06.19.53:293][515]LogStaticMesh: Building static mesh SM_SlidingDoors...
+[2018.07.21-06.19.53:321][515]LogStaticMesh: Built static mesh [0.03s] /Game/ArchVis/Mesh/SM_SlidingDoors.SM_SlidingDoors
+[2018.07.21-06.19.53:370][515]LogStaticMesh: Building static mesh Statue...
+[2018.07.21-06.19.53:614][515]LogStaticMesh: Built static mesh [0.24s] /Game/ArchVis/Mesh/Statue.Statue
+[2018.07.21-06.19.53:636][515]LogStaticMesh: Building static mesh SM_Vase_1...
+[2018.07.21-06.19.53:656][515]LogStaticMesh: Built static mesh [0.02s] /Game/ArchVis/Mesh/SM_Vase_1.SM_Vase_1
+[2018.07.21-06.19.53:673][515]LogTexture:Display: Building textures: Wall_Color (AutoDXT, 1024X1024)
+[2018.07.21-06.19.53:956][515]LogMaterial: Missing cached shader map for material Wall_Material, compiling. 
+[2018.07.21-06.19.54:004][515]LogStaticMesh: Building static mesh House_Cube...
+[2018.07.21-06.19.54:163][515]LogStaticMesh: Built static mesh [0.16s] /Game/Building/House_Cube.House_Cube
+[2018.07.21-06.19.55:049][515]LogTexture:Display: Building textures: T_RoundCeilingLight_N (BC5, 1024X1024)
+[2018.07.21-06.19.55:350][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/5/7/TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_2D5DC90146926E6D1D3AC0B099825CE9___1D8E4B17665FDCFEC0251EADD06EF8B2D06C57AF.udd.
+[2018.07.21-06.19.55:350][515]LogTexture:Display: Building textures: T_RoundCeilingLight_M (DXT1, 1024X1024)
+[2018.07.21-06.19.55:916][515]LogTexture:Display: Building textures: T_RoundCeilingLight_AO (DXT1, 1024X1024)
+[2018.07.21-06.19.56:390][515]LogMaterial: Missing cached shader map for material M_RoundCeilingLight_Mat, compiling. 
+[2018.07.21-06.19.56:480][515]LogStaticMesh: Building static mesh SM_RoundCeilingLight...
+[2018.07.21-06.19.56:485][515]LogStaticMesh: Built static mesh [0.01s] /Game/ArchVis/Mesh/SM_RoundCeilingLight.SM_RoundCeilingLight
+[2018.07.21-06.19.57:192][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/5/7/PHYSX_68E961F5D7B04A1C84A67D46CA8B36E3_PHYSXPC_C91A61724C9E39CE77F82592EF9303F__49E9B521BD8A582CC515DAB599F7414CC83B1FBD.udd.
+[2018.07.21-06.19.57:192][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/5/7/PHYSX_68E961F5D7B04A1C84A67D46CA8B36E3_PHYSXPC_C91A61724C9E39CE77F82592EF9303F__49E9B521BD8A582CC515DAB599F7414CC83B1FBD.udd.
+[2018.07.21-06.19.57:192][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_68E961F5D7B04A1C84A67D46CA8B36E3_PhysXPC_C91A61724C9E39CE77F82592EF9303F__49E9B521BD8A582CC515DAB599F7414CC83B1FBD.
+[2018.07.21-06.19.57:192][515]LogTexture:Display: Building textures: T_PlantSoil_N (BC5, 2048X2048)
+[2018.07.21-06.19.59:067][515]LogTexture:Display: Building textures: T_PlantSoil_D (DXT1, 2048X2048)
+[2018.07.21-06.20.09:914][515]LogTexture:Display: Building textures: T_PlantPot_N (BC5, 2048X2048)
+[2018.07.21-06.20.10:909][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/8/9/TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_95169FDB4F0EE7FCD993058D3F52C3C3___10468D51062852091F2A59FCA398D0A22D934EF8.udd.
+[2018.07.21-06.20.10:909][515]LogTexture:Display: Building textures: T_PlantPot_M (DXT1, 2048X2048)
+[2018.07.21-06.20.12:827][515]LogMaterial: Missing cached shader map for material M_PlantPot_Mat, compiling. 
+[2018.07.21-06.20.13:098][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/1/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D0F769E548C80DC61FFBAB9C98A1C03C__64E23B1F144019A4C72D4A4917928C687A926A1F.udd.
+[2018.07.21-06.20.13:098][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/1/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D0F769E548C80DC61FFBAB9C98A1C03C__64E23B1F144019A4C72D4A4917928C687A926A1F.udd.
+[2018.07.21-06.20.13:098][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D0F769E548C80DC61FFBAB9C98A1C03C__64E23B1F144019A4C72D4A4917928C687A926A1F.
+[2018.07.21-06.20.13:098][515]LogTexture:Display: Building textures: T_PlantLeaf_N (BC5, 2048X2048)
+[2018.07.21-06.20.13:973][515]LogTexture:Display: Building textures: T_PlantLeaf_M (DXT1, 2048X2048)
+[2018.07.21-06.20.14:777][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/1/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_CEEF9C27482A0BD67F9383BE1FB9E307__BDF4083801690A840F3530F679DA1D296F82581D.udd.
+[2018.07.21-06.20.14:777][515]LogTexture:Display: Building textures: T_PlantLeaf_D (DXT1, 2048X2048)
+[2018.07.21-06.20.17:459][515]LogMaterial: Missing cached shader map for material M_PlantLeaf_Mat, compiling. 
+[2018.07.21-06.20.17:611][515]LogMaterial: Missing cached shader map for material M_Statue, compiling. 
+[2018.07.21-06.20.17:766][515]LogTexture:Display: Building textures: T_PlantBark_D (DXT1, 512X2048)
+[2018.07.21-06.20.20:255][515]LogMaterial: Missing cached shader map for material M_PlantBark_Mat, compiling. 
+[2018.07.21-06.20.20:303][515]LogStaticMesh: Building static mesh SM_Plant...
+[2018.07.21-06.20.20:419][515]LogStaticMesh: Built static mesh [0.12s] /Game/ArchVis/Mesh/SM_Plant.SM_Plant
+[2018.07.21-06.20.20:583][515]LogTexture:Display: Building textures: T_Leather_S (DXT1, 2048X2048)
+[2018.07.21-06.20.22:485][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/8/4/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_DC31F25749833FC2AD1CDC991A8AE982__686E78B9B6D846A9A549023FA0A44F7264BB6227.udd.
+[2018.07.21-06.20.22:485][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/8/4/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_DC31F25749833FC2AD1CDC991A8AE982__686E78B9B6D846A9A549023FA0A44F7264BB6227.udd.
+[2018.07.21-06.20.22:485][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_DC31F25749833FC2AD1CDC991A8AE982__686E78B9B6D846A9A549023FA0A44F7264BB6227.
+[2018.07.21-06.20.22:485][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/6/4/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_DC31F25749833FC2AD1CDC991A8AE982__2D603D4B2EE51B46381059AE6F7EB22E3E5822A7.udd.
+[2018.07.21-06.20.22:485][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/6/4/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_DC31F25749833FC2AD1CDC991A8AE982__2D603D4B2EE51B46381059AE6F7EB22E3E5822A7.udd.
+[2018.07.21-06.20.22:485][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_DC31F25749833FC2AD1CDC991A8AE982__2D603D4B2EE51B46381059AE6F7EB22E3E5822A7.
+[2018.07.21-06.20.22:485][515]LogTexture:Display: Building textures: T_Leather_N (BC5, 2048X2048)
+[2018.07.21-06.20.24:023][515]LogTexture:Display: Building textures: T_Leather_D (DXT1, 2048X2048)
+[2018.07.21-06.20.34:596][515]LogTexture:Display: Building textures: T_Couch_N (BC5, 4096X4096)
+[2018.07.21-06.20.37:638][515]LogTexture:Display: Building textures: T_Couch_Mask (DXT1, 2048X2048)
+[2018.07.21-06.20.38:764][515]LogTexture:Display: Building textures: T_Table_AOMASK (DXT1, 2048X2048)
+[2018.07.21-06.20.39:703][515]LogTexture:Display: Building textures: T_Table_M (DXT1, 2048X2048)
+[2018.07.21-06.20.40:273][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/7/0/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_63F27C5544D4C359A557E083324F843E__F954D024C203D7A5C77ED69AADBB78E6083D4EBF.udd.
+[2018.07.21-06.20.40:273][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/7/0/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_63F27C5544D4C359A557E083324F843E__F954D024C203D7A5C77ED69AADBB78E6083D4EBF.udd.
+[2018.07.21-06.20.40:273][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_63F27C5544D4C359A557E083324F843E__F954D024C203D7A5C77ED69AADBB78E6083D4EBF.
+[2018.07.21-06.20.40:273][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/8/6/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_63F27C5544D4C359A557E083324F843E__187BCECFA161291D0D3DFEBD2A603EDE31BFBF4E.udd.
+[2018.07.21-06.20.40:273][515]LogTexture:Display: Building textures: T_Table_N (BC5, 2048X2048)
+[2018.07.21-06.20.40:918][515]LogMaterial: Missing cached shader map for material M_CoffeTable_MAT, compiling. 
+[2018.07.21-06.20.40:973][515]LogStaticMesh: Building static mesh SM_CoffeeTable...
+[2018.07.21-06.20.40:980][515]LogStaticMesh: Built static mesh [0.01s] /Game/ArchVis/Mesh/SM_CoffeeTable.SM_CoffeeTable
+[2018.07.21-06.20.41:029][515]LogStaticMesh: Building static mesh SM_Carpet...
+[2018.07.21-06.20.41:093][515]LogStaticMesh: Built static mesh [0.06s] /Game/ArchVis/Mesh/SM_Carpet.SM_Carpet
+[2018.07.21-06.20.41:113][515]LogMaterial: Missing cached shader map for material M_Ceramic_Mat, compiling. 
+[2018.07.21-06.20.41:148][515]LogStaticMesh: Building static mesh SM_Bowl...
+[2018.07.21-06.20.41:164][515]LogStaticMesh: Built static mesh [0.02s] /Game/ArchVis/Mesh/SM_Bowl.SM_Bowl
+[2018.07.21-06.20.41:172][515]LogMaterial: Missing cached shader map for material M_Black_MAT, compiling. 
+[2018.07.21-06.20.41:205][515]LogStaticMesh: Building static mesh SM_BlackBox...
+[2018.07.21-06.20.41:206][515]LogStaticMesh: Built static mesh [0.00s] /Game/ArchVis/Mesh/SM_BlackBox.SM_BlackBox
+[2018.07.21-06.20.41:206][515]LogStaticMesh: Building static mesh CoatHookBacking...
+[2018.07.21-06.20.41:216][515]LogStaticMesh: Built static mesh [0.01s] /Game/ArchVis/Mesh/CoatHookBacking.CoatHookBacking
+[2018.07.21-06.20.41:223][515]LogTexture:Display: Building textures: T_DustParticles_M (DXT1, 512X512)
+[2018.07.21-06.20.41:334][515]LogTexture:Display: Building textures: book_occlusion (DXT1, 2048X2048)
+[2018.07.21-06.20.42:100][515]LogTexture:Display: Building textures: book_normals (BC5, 2048X2048)
+[2018.07.21-06.20.42:775][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/4/7/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_9951199D44940F38EED3A29009512CA2__F3CB40A13B3C67825291A2270BB4590BF90CB5FA.udd.
+[2018.07.21-06.20.42:791][515]LogMaterial: Missing cached shader map for material M_Book_Mat, compiling. 
+[2018.07.21-06.20.42:915][515]LogStaticMesh: Building static mesh BookLP...
+[2018.07.21-06.20.42:922][515]LogStaticMesh: Built static mesh [0.05s] /Game/ArchVis/Mesh/BookLP.BookLP
+[2018.07.21-06.20.43:097][515]LogTexture:Display: Building textures: SprintUIIcon (BGRA8, 47X53)
+[2018.07.21-06.20.43:098][515]LogTexture:Display: Building textures: FoodUIIcon (BGRA8, 63X65)
+[2018.07.21-06.20.43:099][515]LogTexture:Display: Building textures: 5148_6 (AutoDXT, 8X8)
+[2018.07.21-06.20.43:099][515]LogTexture:Display: Building textures: 5152_6 (AutoDXT, 8X8)
+[2018.07.21-06.20.43:102][515]LogMaterial: Missing cached shader map for material Material_191, compiling. 
+[2018.07.21-06.20.43:189][515]LogTexture:Display: Building textures: 4674_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.20.43:982][515]LogTexture:Display: Building textures: 4669_2 (AutoDXT, 8X8)
+[2018.07.21-06.20.43:986][515]LogMaterial: Missing cached shader map for material Material_151, compiling. 
+[2018.07.21-06.20.44:168][515]LogTexture:Display: Building textures: T_CoatHookBack_M (AutoDXT, 1024X1024)
+[2018.07.21-06.20.44:414][515]LogMaterial: Missing cached shader map for material M_CoathookBack, compiling. 
+[2018.07.21-06.20.44:597][515]LogTexture:Display: Building textures: brick01a_brick01_color (AutoDXT, 1024X1024)
+[2018.07.21-06.20.45:670][515]LogTexture:Display: Building textures: It_066_WoodBridge (AutoDXT, 64X64)
+[2018.07.21-06.20.45:681][515]LogMaterial: Missing cached shader map for material woodbridge_mat, compiling. 
+[2018.07.21-06.20.47:062][515]LogStaticMesh: Building static mesh knife010...
+[2018.07.21-06.20.47:068][515]LogStaticMesh: Built static mesh [0.01s] /Game/Item/knife010.knife010
+[2018.07.21-06.20.47:069][515]LogStaticMesh: Building static mesh Laptop...
+[2018.07.21-06.20.47:074][515]LogStaticMesh: Built static mesh [0.01s] /Game/Indoor/Laptop.Laptop
+[2018.07.21-06.20.47:075][515]LogStaticMesh: Building static mesh MejaKamar...
+[2018.07.21-06.20.47:102][515]LogStaticMesh: Built static mesh [0.03s] /Game/Indoor/MejaKamar.MejaKamar
+[2018.07.21-06.20.47:110][515]LogStaticMesh: Building static mesh SM_Couch...
+[2018.07.21-06.20.47:189][515]LogStaticMesh: Built static mesh [0.08s] /Game/ArchVis/Mesh/SM_Couch.SM_Couch
+[2018.07.21-06.20.47:214][515]LogStaticMesh: Building static mesh SM_Curtain...
+[2018.07.21-06.20.47:217][515]LogStaticMesh: Built static mesh [0.00s] /Game/ArchVis/Mesh/SM_Curtain.SM_Curtain
+[2018.07.21-06.20.47:240][515]LogStaticMesh: Building static mesh SM_DeskLamp...
+[2018.07.21-06.20.47:290][515]LogStaticMesh: Built static mesh [0.05s] /Game/ArchVis/Mesh/SM_DeskLamp.SM_DeskLamp
+[2018.07.21-06.20.47:322][515]LogStaticMesh: Building static mesh SM_Door...
+[2018.07.21-06.20.47:346][515]LogStaticMesh: Built static mesh [0.02s] /Game/ArchVis/Mesh/SM_Door.SM_Door
+[2018.07.21-06.20.47:354][515]LogStaticMesh: Building static mesh SwordPaint...
+[2018.07.21-06.20.47:357][515]LogStaticMesh: Built static mesh [0.00s] /Game/Indoor/SwordPaint.SwordPaint
+[2018.07.21-06.20.48:429][515]LogTexture:Display: Building textures: T_Door_N (BC5, 2048X2048)
+[2018.07.21-06.20.49:183][515]LogTexture:Display: Building textures: T_Door_M (DXT1, 2048X2048)
+[2018.07.21-06.20.49:832][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/8/7/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_3DF3FFDE4A2E627139816BB38F8FA47B__D0FE82470CDC3CF6888A7050056F14DD3D4CA1AA.udd.
+[2018.07.21-06.20.49:832][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/8/7/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_3DF3FFDE4A2E627139816BB38F8FA47B__D0FE82470CDC3CF6888A7050056F14DD3D4CA1AA.udd.
+[2018.07.21-06.20.49:832][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_3DF3FFDE4A2E627139816BB38F8FA47B__D0FE82470CDC3CF6888A7050056F14DD3D4CA1AA.
+[2018.07.21-06.20.49:832][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/3/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_3DF3FFDE4A2E627139816BB38F8FA47B__4FB4AF814FE843E78B56022339D641A07191F850.udd.
+[2018.07.21-06.20.49:832][515]LogTexture:Display: Building textures: T_Door_AOMask (DXT1, 2048X2048)
+[2018.07.21-06.20.51:549][515]LogTexture:Display: Building textures: T_Anisotrophic_M (DXT1, 1024X1024)
+[2018.07.21-06.20.53:382][515]LogTexture:Display: Building textures: T_Anisotrophic_N (BC5, 1024X1024)
+[2018.07.21-06.20.53:626][515]LogMaterial: Missing cached shader map for material M_Door_MAT, compiling. 
+[2018.07.21-06.20.53:810][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/3/0/TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_EC614F1D4213A0322A563EAAB8C752ED___395F4E8D4FCD04C4E81BA4BD246567A5B581CA0C.udd.
+[2018.07.21-06.20.53:810][515]LogTexture:Display: Building textures: T_FloorLamp_N (BC5, 2048X2048)
+[2018.07.21-06.20.54:485][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/3/0/TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_EC614F1D4213A0322A563EAAB8C752ED___395F4E8D4FCD04C4E81BA4BD246567A5B581CA0C.udd.
+[2018.07.21-06.20.54:485][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_EC614F1D4213A0322A563EAAB8C752ED___395F4E8D4FCD04C4E81BA4BD246567A5B581CA0C.
+[2018.07.21-06.20.54:485][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/7/TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_EC614F1D4213A0322A563EAAB8C752ED___F4C74E7518571B2906914284853572E07027B8F7.udd.
+[2018.07.21-06.20.54:486][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/7/TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_EC614F1D4213A0322A563EAAB8C752ED___F4C74E7518571B2906914284853572E07027B8F7.udd.
+[2018.07.21-06.20.54:486][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_EC614F1D4213A0322A563EAAB8C752ED___F4C74E7518571B2906914284853572E07027B8F7.
+[2018.07.21-06.20.54:534][515]LogTexture:Display: Building textures: T_FloorLamp_M (DXT1, 2048X2048)
+[2018.07.21-06.20.55:221][515]LogTexture:Display: Building textures: T_FloorLamp_AO (DXT1, 2048X2048)
+[2018.07.21-06.20.56:870][515]LogMaterial: Missing cached shader map for material M_FloorLamp_Mat, compiling. 
+[2018.07.21-06.20.56:921][515]LogTexture:Display: Building textures: T_DeskLamp_N (BC5, 1024X1024)
+[2018.07.21-06.20.57:085][515]LogMaterial: Missing cached shader map for material M_DeskLamp_Mat, compiling. 
+[2018.07.21-06.20.57:320][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/6/5/TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_626D9F3A41592B017FFF05A1723A9140___E7D4DC287D5A60E9793B4A015B2416EBBD5A217D.udd.
+[2018.07.21-06.20.57:320][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/6/5/TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_626D9F3A41592B017FFF05A1723A9140___E7D4DC287D5A60E9793B4A015B2416EBBD5A217D.udd.
+[2018.07.21-06.20.57:320][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_626D9F3A41592B017FFF05A1723A9140___E7D4DC287D5A60E9793B4A015B2416EBBD5A217D.
+[2018.07.21-06.20.57:320][515]LogTexture:Display: Building textures: T_Fabric_N (BC5, 1024X1024)
+[2018.07.21-06.20.57:632][515]LogTexture:Display: Building textures: T_Fabric_M (DXT1, 1024X1024)
+[2018.07.21-06.20.59:702][515]LogTexture:Display: Building textures: T_Cloth_N (BC5, 2048X2048)
+[2018.07.21-06.21.00:745][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/5/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_F7D62E7A4F42F8AFE702A6AE00912A4F__C704418626A3F0326276501962A86BB06032D1CE.udd.
+[2018.07.21-06.21.01:104][515]LogTexture:Display: Building textures: T_Cloth_D (DXT1, 2048X2048)
+[2018.07.21-06.21.06:732][515]LogMaterial: Missing cached shader map for material M_Curtain_MAT, compiling. 
+[2018.07.21-06.21.06:774][515]LogTexture:Display: Building textures: 4665_2 (AutoDXT, 8X8)
+[2018.07.21-06.21.06:777][515]LogMaterial: Missing cached shader map for material Material_149, compiling. 
+[2018.07.21-06.21.07:403][515]LogTexture:Display: Building textures: T_Couch_AO (AutoDXT, 4096X4096)
+[2018.07.21-06.21.25:221][515]LogMaterial: Missing cached shader map for material M_Couch_NOSSS_Mat, compiling. 
+[2018.07.21-06.21.25:353][515]LogTexture:Display: Building textures: 3653_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.21.26:766][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_B7A55709474462EA8C3913BAD49C6__7F4DFCD40965BD40C74A361ECCE7A3140F97079B.udd.
+[2018.07.21-06.21.26:766][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_B7A55709474462EA8C3913BAD49C6__7F4DFCD40965BD40C74A361ECCE7A3140F97079B.udd.
+[2018.07.21-06.21.26:766][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_AutoDXT_B7A55709474462EA8C3913BAD49C6__7F4DFCD40965BD40C74A361ECCE7A3140F97079B.
+[2018.07.21-06.21.26:859][515]LogTexture:Display: Building textures: 3649_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.21.27:698][515]LogMaterial: Missing cached shader map for material Material_61, compiling. 
+[2018.07.21-06.21.27:722][515]LogTexture:Display: Building textures: ArrowUIIcon (BGRA8, 65X21)
+[2018.07.21-06.21.28:022][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/0/5/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_F19A6E6D4A4ED73DB6A0D7A0EFBFF__06618F68852134D6A378BF62FFF2EE343F8E2ADA.udd.
+[2018.07.21-06.21.28:096][515]LogTexture:Display: Building textures: It_014_tree1 (AutoDXT, 128X128)
+[2018.07.21-06.21.28:244][515]LogAudioDerivedData:Display: Building compressed audio format OGG wave CGM3_Treehouse_SPRING_Lite_1_Loop...
+[2018.07.21-06.21.40:043][515]LogTexture:Display: Building textures: knife010_0 (AutoDXT, 128X128)
+[2018.07.21-06.21.40:178][515]LogMaterial: Missing cached shader map for material knife010_mat, compiling. 
+[2018.07.21-06.21.40:461][515]LogTexture:Display: Building textures: It_042_chair (AutoDXT, 32X32)
+[2018.07.21-06.21.40:504][515]LogMaterial: Missing cached shader map for material chair_mat, compiling. 
+[2018.07.21-06.21.41:065][515]LogTexture:Display: Building textures: It_039_wallClock (AutoDXT, 64X128)
+[2018.07.21-06.21.41:240][515]LogMaterial: Missing cached shader map for material wallclock_mat, compiling. 
+[2018.07.21-06.21.41:825][515]LogTexture:Display: Building textures: shadow001 (AutoDXT, 64X64)
+[2018.07.21-06.21.41:901][515]LogMaterial: Missing cached shader map for material add_mat, compiling. 
+[2018.07.21-06.21.42:855][515]LogTexture:Display: Building textures: 6098_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.21.51:559][515]LogTexture:Display: Building textures: 6094_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.21.54:415][515]LogMaterial: Missing cached shader map for material Material_229, compiling. 
+[2018.07.21-06.21.54:498][515]LogTexture:Display: Building textures: 6088_2 (BGRA8, 457X343)
+[2018.07.21-06.21.54:542][515]LogMaterial: Missing cached shader map for material Material_227, compiling. 
+[2018.07.21-06.21.54:593][515]LogMaterial: Missing cached shader map for material shadow_mat, compiling. 
+[2018.07.21-06.21.54:713][515]LogTexture:Display: Building textures: It_069_bed01 (AutoDXT, 64X64)
+[2018.07.21-06.21.54:731][515]LogMaterial: Missing cached shader map for material It_069_bed01_mat, compiling. 
+[2018.07.21-06.21.54:861][515]LogTexture:Display: Building textures: It_038_counter_center (AutoDXT, 64X32)
+[2018.07.21-06.21.54:871][515]LogMaterial: Missing cached shader map for material It_038_counter_center2, compiling. 
+[2018.07.21-06.21.55:175][515]LogTexture:Display: Building textures: 1120_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.21.58:220][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/0/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_8017A6A7474AE879F415D39E49AFF__C0174C5186AC048A1517F242AAFCF26D6EE8B03E.udd.
+[2018.07.21-06.21.58:220][515]LogTexture:Display: Building textures: 1116_2 (AutoDXT, 2048X2048)
+[2018.07.21-06.21.59:432][515]LogMaterial: Missing cached shader map for material Material_71, compiling. 
+[2018.07.21-06.21.59:479][515]LogMaterial: Missing cached shader map for material It_038_counter_center1, compiling. 
+[2018.07.21-06.21.59:597][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/4/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_DE6DB758437ADE55A557DDB5F83AA__11F78D2BC7891C6B6ABF439C7D4E4C0892FA94BE.udd.
+[2018.07.21-06.21.59:597][515]LogTexture:Display: Building textures: It_038_counter_edge (AutoDXT, 64X32)
+[2018.07.21-06.21.59:607][515]LogMaterial: Missing cached shader map for material It_038_counter_side, compiling. 
+[2018.07.21-06.21.59:840][515]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.21-06.22.01:046][515]Cmd: MAP LOAD FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.21-06.22.01:047][515]LightingResults: New page: Lighting Build
+[2018.07.21-06.22.01:049][515]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2018.07.21-06.22.01:074][515]MapCheck: New page: Map Check
+[2018.07.21-06.22.01:074][515]LightingResults: New page: Lighting Build
+[2018.07.21-06.22.01:862][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/9/MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__FC276E7116AFEF44E66387BA037D47FF401108FA.udd.
+[2018.07.21-06.22.01:862][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/9/MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__FC276E7116AFEF44E66387BA037D47FF401108FA.udd.
+[2018.07.21-06.22.01:863][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NoCCBN_DEV_SL_DBuf_Un__FC276E7116AFEF44E66387BA037D47FF401108FA.
+[2018.07.21-06.22.01:863][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/9/7/MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__6B842AB3AD74994F614AD945959366D2334139BB.udd.
+[2018.07.21-06.22.01:863][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/9/7/MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__6B842AB3AD74994F614AD945959366D2334139BB.udd.
+[2018.07.21-06.22.01:863][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NoCCBN_DEV_SL_DBuf_Un__6B842AB3AD74994F614AD945959366D2334139BB.
+[2018.07.21-06.22.01:863][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/5/MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__4DBF09D6B452909ACF3A030110FE79FCE9B3047B.udd.
+[2018.07.21-06.22.01:863][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/5/MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__4DBF09D6B452909ACF3A030110FE79FCE9B3047B.udd.
+[2018.07.21-06.22.01:863][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NoCCBN_DEV_SL_DBuf_Un__4DBF09D6B452909ACF3A030110FE79FCE9B3047B.
+[2018.07.21-06.22.01:863][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__3D050FFC16EBA919557E50691AF6815198BA21A3.udd.
+[2018.07.21-06.22.01:863][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__3D050FFC16EBA919557E50691AF6815198BA21A3.udd.
+[2018.07.21-06.22.01:863][515]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NoCCBN_DEV_SL_DBuf_Un__3D050FFC16EBA919557E50691AF6815198BA21A3.
+[2018.07.21-06.22.02:380][515]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/3/0/MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__0D06AEF6A134C20E1D7B6E73418B5D08A7089ADA.udd.
+[2018.07.21-06.22.02:713][515]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.21-06.22.02:865][515]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.21-06.22.03:118][515]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 252.564ms to complete.
+[2018.07.21-06.22.03:119][515]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.113
+[2018.07.21-06.22.03:505][516]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/2/MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__9E51EC562AC881171699561B935DAA910F1BB9C5.udd.
+[2018.07.21-06.22.03:518][516]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Digital_Silence/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/2/MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__9E51EC562AC881171699561B935DAA910F1BB9C5.udd.
+[2018.07.21-06.22.03:520][516]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy MATSM_9415B3AB201F4D66BC34969101289C60_PCD3D_SM5_7__BC5N_NoCCBN_DEV_SL_DBuf_Un__9E51EC562AC881171699561B935DAA910F1BB9C5.
+[2018.07.21-06.22.06:744][517]LogHttp:Warning: 000002415B3F3280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.22.06:744][517]LogHttp:Warning: 000002415B3F3280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.22.06:744][517]LogHttp:Warning: 000002415B3F3280: libcurl info message cache 1 (Closing connection 1)
+[2018.07.21-06.23.49:512][995]LogHttp:Warning: 000002419BC9F700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.23.49:512][995]LogHttp:Warning: 000002419BC9F700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.23.49:512][995]LogHttp:Warning: 000002419BC9F700: libcurl info message cache 1 (Closing connection 2)
+[2018.07.21-06.24.49:502][581]LogHttp:Warning: 000002419CCA6B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.24.49:502][581]LogHttp:Warning: 000002419CCA6B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.24.49:502][581]LogHttp:Warning: 000002419CCA6B00: libcurl info message cache 1 (Closing connection 3)
+[2018.07.21-06.25.23:269][726]LogFileManager:Warning: Error deleting file: C:/Users/Digital_Silence/AppData/Local/Temp/UnrealShaderWorkingDir/A28C4378475DDBC563B71595BEDCBFD3/0/WorkerOutputOnly.out (Error Code 32)
+[2018.07.21-06.25.49:002][123]LogFileManager:Warning: Error deleting file: C:/Users/Digital_Silence/AppData/Local/Temp/UnrealShaderWorkingDir/A28C4378475DDBC563B71595BEDCBFD3/2/WorkerOutputOnly.out (Error Code 32)
+[2018.07.21-06.25.49:508][170]LogHttp:Warning: 000002419DEBAB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.25.49:508][170]LogHttp:Warning: 000002419DEBAB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.25.49:508][170]LogHttp:Warning: 000002419DEBAB00: libcurl info message cache 1 (Closing connection 4)
+[2018.07.21-06.27.49:515][219]LogHttp:Warning: 000002419DEB9000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.27.49:515][219]LogHttp:Warning: 000002419DEB9000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.27.49:515][219]LogHttp:Warning: 000002419DEB9000: libcurl info message cache 1 (Closing connection 5)
+[2018.07.21-06.28.44:453][861]LogTemp: Repeting last play command: Selected Viewport
+[2018.07.21-06.28.45:163][861]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.28.45:180][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.28.45:280][861]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 21, 2018, 8:28:45 PM)
+[2018.07.21-06.28.45:295][861]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.07.21-06.28.45:557][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.261655s)
+[2018.07.21-06.28.45:558][861]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.21-06.28.45:558][861]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2018.07.21-06.28.45:570][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.274869s)
+[2018.07.21-06.28.45:638][861]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.28.45:670][861]LogInit: FAudioDevice initialized.
+[2018.07.21-06.28.45:953][861]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.28.46:074][861]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.07.21-13.28.46
+[2018.07.21-06.28.46:152][861]LogWorld: Bringing up level for play took: 0.065926
+[2018.07.21-06.28.48:001][861]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.07.21-06.28.48:402][861]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 3.666
+[2018.07.21-06.28.48:402][861]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.28.49:510][921]LogHttp:Warning: 0000024146E29180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.28.49:510][921]LogHttp:Warning: 0000024146E29180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.28.49:510][921]LogHttp:Warning: 0000024146E29180: libcurl info message cache 1 (Closing connection 6)
+[2018.07.21-06.29.05:409][846]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.29.05:573][846]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.29.09:684][183]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.29.09:684][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.29.09:684][183]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 21, 2018, 8:29:09 PM)
+[2018.07.21-06.29.09:684][183]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.07.21-06.29.09:715][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030534s)
+[2018.07.21-06.29.09:716][183]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.21-06.29.09:716][183]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2018.07.21-06.29.09:716][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031919s)
+[2018.07.21-06.29.09:750][183]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.29.09:803][183]LogInit: FAudioDevice initialized.
+[2018.07.21-06.29.09:969][183]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.29.09:985][183]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.07.21-13.29.09
+[2018.07.21-06.29.09:986][183]LogWorld: Bringing up level for play took: 0.015657
+[2018.07.21-06.29.10:000][183]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.265
+[2018.07.21-06.29.10:001][183]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.29.10:077][183]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2018.07.21-06.29.23:131][855]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.29.23:209][855]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.29.30:947][346]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2018.07.21-06.29.33:896][346]LogSlate: Took 0.016429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.21-06.29.33:935][346]LogSlate: Took 0.037830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.21-06.29.46:099][924]LogSlate:Warning: FSlateFontInfo property 'Font.FontObject' on object '/Engine/Transient.World_1:HUDWidget_C_3.WidgetTree_12.TextBlock_139' was set to use a null UFont. Slate will be forced to use the fallback font path which may be slower.
+[2018.07.21-06.29.46:333][924]LogSlate: Took 0.077654 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2018.07.21-06.30.09:679][141]LogHttp:Warning: 0000024198B9D600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.30.09:679][141]LogHttp:Warning: 0000024198B9D600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.30.09:679][141]LogHttp:Warning: 0000024198B9D600: libcurl info message cache 1 (Closing connection 7)
+[2018.07.21-06.30.10:625][186]LogEditorTransaction: Undo Edit A
+[2018.07.21-06.30.18:201][257]LogEditorTransaction: Undo Edit B
+[2018.07.21-06.30.30:018][344]LogEditorTransaction: Undo Edit A
+[2018.07.21-06.30.50:615][981]LogSavePackage: Save=1499.90ms
+[2018.07.21-06.30.50:615][981]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/HUDWidget68801466448E452E3E714CA7A45567A4.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/HungerStaminaSystems/Widget/HUDWidget.uasset'
+[2018.07.21-06.30.50:668][981]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/HungerStaminaSystems/Widget/HUDWidget.uasset
+[2018.07.21-06.30.51:664][ 38]BlueprintLog: New page: Compile HUDWidget
+[2018.07.21-06.30.52:395][ 38]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.07.21-06.31.09:492][991]BlueprintLog: New page: Compile YourHunger
+[2018.07.21-06.31.09:630][991]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.07.21-06.31.21:336][795]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.31.21:366][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.31.21:366][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.31.21:366][795]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 21, 2018, 8:31:21 PM)
+[2018.07.21-06.31.21:366][795]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.07.21-06.31.21:388][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021791s)
+[2018.07.21-06.31.21:388][795]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.21-06.31.21:389][795]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2018.07.21-06.31.21:389][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022852s)
+[2018.07.21-06.31.21:423][795]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.31.21:453][795]LogInit: FAudioDevice initialized.
+[2018.07.21-06.31.21:511][795]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.31.21:519][795]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.07.21-13.31.21
+[2018.07.21-06.31.21:520][795]LogWorld: Bringing up level for play took: 0.007828
+[2018.07.21-06.31.21:533][795]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.799
+[2018.07.21-06.31.21:534][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.31.49:096][ 26]LogHttp:Warning: 0000024109193D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.31.49:096][ 26]LogHttp:Warning: 0000024109193D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.31.49:096][ 26]LogHttp:Warning: 0000024109193D00: libcurl info message cache 1 (Closing connection 8)
+[2018.07.21-06.32.16:853][291]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.32.16:889][291]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.32.39:513][585]BlueprintLog: New page: Compile YourHunger
+[2018.07.21-06.32.39:651][585]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.07.21-06.32.49:461][208]LogHttp:Warning: 000002417EF7E200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.32.49:461][208]LogHttp:Warning: 000002417EF7E200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.32.49:461][208]LogHttp:Warning: 000002417EF7E200: libcurl info message cache 1 (Closing connection 9)
+[2018.07.21-06.33.49:497][353]LogHttp:Warning: 000002419DEB8700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.33.49:497][353]LogHttp:Warning: 000002419DEB8700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.33.49:497][353]LogHttp:Warning: 000002419DEB8700: libcurl info message cache 1 (Closing connection 10)
+[2018.07.21-06.34.49:524][915]LogHttp:Warning: 000002410E204400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.34.49:524][915]LogHttp:Warning: 000002410E204400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.34.49:524][915]LogHttp:Warning: 000002410E204400: libcurl info message cache 1 (Closing connection 11)
+[2018.07.21-06.34.54:305][184]BlueprintLog: New page: Compile ObjectiveComplete
+[2018.07.21-06.34.54:494][184]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.07.21-06.35.06:318][833]LogSlate: Took 0.036600 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.21-06.35.19:715][675]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.35.19:802][675]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.35.19:802][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.35.19:803][675]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 21, 2018, 8:35:19 PM)
+[2018.07.21-06.35.19:803][675]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.07.21-06.35.19:909][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.105899s)
+[2018.07.21-06.35.19:912][675]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.21-06.35.19:912][675]LogPlayLevel: PIE: World Init took: (0.002820s)
+[2018.07.21-06.35.19:913][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.109897s)
+[2018.07.21-06.35.20:124][675]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.35.20:296][675]LogInit: FAudioDevice initialized.
+[2018.07.21-06.35.20:524][675]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.35.20:608][675]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.07.21-13.35.20
+[2018.07.21-06.35.20:613][675]LogWorld: Bringing up level for play took: 0.085272
+[2018.07.21-06.35.20:717][675]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.018
+[2018.07.21-06.35.20:720][675]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.35.41:171][146]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.35.41:241][146]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.35.54:351][930]LogHttp:Warning: 0000024191FE4B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.35.54:351][930]LogHttp:Warning: 0000024191FE4B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.35.54:351][930]LogHttp:Warning: 0000024191FE4B80: libcurl info message cache 1 (Closing connection 12)
+[2018.07.21-06.36.11:566][ 91]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.21-06.36.12:251][ 91]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.36.12:251][ 91]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.36.17:879][444]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.21-06.36.18:454][444]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.36.18:454][444]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.36.23:359][753]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.36.23:378][753]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.36.23:378][753]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.36.23:378][753]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 21, 2018, 8:36:23 PM)
+[2018.07.21-06.36.23:378][753]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.07.21-06.36.23:399][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021501s)
+[2018.07.21-06.36.23:400][753]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.21-06.36.23:400][753]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2018.07.21-06.36.23:401][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022573s)
+[2018.07.21-06.36.23:435][753]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.36.23:465][753]LogInit: FAudioDevice initialized.
+[2018.07.21-06.36.23:530][753]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.36.23:538][753]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.07.21-13.36.23
+[2018.07.21-06.36.23:539][753]LogWorld: Bringing up level for play took: 0.008116
+[2018.07.21-06.36.23:556][753]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.822
+[2018.07.21-06.36.23:557][753]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.36.27:590][932]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.36.27:649][932]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.36.34:260][337]LogSavePackage: Save=354.37ms
+[2018.07.21-06.36.34:260][337]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/ThirdPersonCharacterE7EA28B04B0E761B8F8E52AA451F3628.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/Player/ThirdPersonCharacter.uasset'
+[2018.07.21-06.36.34:288][337]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/Player/ThirdPersonCharacter.uasset
+[2018.07.21-06.36.35:047][386]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.21-06.36.35:621][386]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.36.35:621][386]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.36.37:496][492]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.36.37:514][492]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.36.37:514][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.36.37:515][492]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 21, 2018, 8:36:37 PM)
+[2018.07.21-06.36.37:515][492]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.07.21-06.36.37:536][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020691s)
+[2018.07.21-06.36.37:536][492]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.21-06.36.37:536][492]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2018.07.21-06.36.37:537][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021809s)
+[2018.07.21-06.36.37:572][492]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.36.37:601][492]LogInit: FAudioDevice initialized.
+[2018.07.21-06.36.37:665][492]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.36.37:672][492]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.07.21-13.36.37
+[2018.07.21-06.36.37:673][492]LogWorld: Bringing up level for play took: 0.007092
+[2018.07.21-06.36.37:691][492]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.956
+[2018.07.21-06.36.37:692][492]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.36.56:171][315]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.36.56:240][315]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.37.03:133][777]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.21-06.37.03:720][777]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.37.03:720][777]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.37.04:534][812]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.37.04:553][812]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.37.04:553][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.37.04:553][812]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 21, 2018, 8:37:04 PM)
+[2018.07.21-06.37.04:553][812]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.07.21-06.37.04:572][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018765s)
+[2018.07.21-06.37.04:573][812]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.21-06.37.04:573][812]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2018.07.21-06.37.04:573][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019792s)
+[2018.07.21-06.37.04:610][812]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.37.04:640][812]LogInit: FAudioDevice initialized.
+[2018.07.21-06.37.04:699][812]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.37.04:707][812]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.07.21-13.37.04
+[2018.07.21-06.37.04:707][812]LogWorld: Bringing up level for play took: 0.007384
+[2018.07.21-06.37.04:726][812]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.009
+[2018.07.21-06.37.04:726][812]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.37.11:608][123]LogHttp:Warning: 00000241DC0A5F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.37.11:608][123]LogHttp:Warning: 00000241DC0A5F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.37.11:608][123]LogHttp:Warning: 00000241DC0A5F00: libcurl info message cache 1 (Closing connection 13)
+[2018.07.21-06.37.14:687][260]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.37.14:751][260]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.37.38:250][836]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.37.38:268][836]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.37.38:268][836]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.37.38:268][836]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 21, 2018, 8:37:38 PM)
+[2018.07.21-06.37.38:269][836]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.07.21-06.37.38:288][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020421s)
+[2018.07.21-06.37.38:289][836]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.21-06.37.38:289][836]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2018.07.21-06.37.38:289][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021498s)
+[2018.07.21-06.37.38:327][836]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.37.38:357][836]LogInit: FAudioDevice initialized.
+[2018.07.21-06.37.38:417][836]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.37.38:424][836]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.07.21-13.37.38
+[2018.07.21-06.37.38:425][836]LogWorld: Bringing up level for play took: 0.007593
+[2018.07.21-06.37.38:443][836]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.291
+[2018.07.21-06.37.38:444][836]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.37.43:293][ 87]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.37.43:382][ 87]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.21-06.38.38:335][892]LogHttp:Warning: 00000241DB0D8880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.38.38:335][892]LogHttp:Warning: 00000241DB0D8880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.38.38:335][892]LogHttp:Warning: 00000241DB0D8880: libcurl info message cache 1 (Closing connection 14)
+[2018.07.21-06.39.49:526][887]LogHttp:Warning: 00000241DB3A6980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.39.49:526][887]LogHttp:Warning: 00000241DB3A6980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.39.49:526][887]LogHttp:Warning: 00000241DB3A6980: libcurl info message cache 1 (Closing connection 15)
+[2018.07.21-06.39.53:070][ 92]BlueprintLog: New page: Compile InteractionPlayer
+[2018.07.21-06.39.53:269][ 92]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.07.21-06.39.54:284][144]LogSavePackage: Save=43.91ms
+[2018.07.21-06.39.54:284][144]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/InteractionPlayerBB84560E4CCD2DD87EAD09A736EA70A7.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/InteractionSystem/Widget/InteractionPlayer.uasset'
+[2018.07.21-06.39.54:286][144]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/InteractionSystem/Widget/InteractionPlayer.uasset
+[2018.07.21-06.40.29:952][459]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.050
+[2018.07.21-06.40.30:043][459]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ProgramBluePrint/Player/Player/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.07.21-06.40.30:092][459]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ProgramBluePrint/Player/Player/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.07.21-06.40.30:092][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/ProgramBluePrint/Player/Player/ThirdPersonCharacter]
+[2018.07.21-06.40.30:383][459]LogSavePackage: Save=284.84ms
+[2018.07.21-06.40.30:383][459]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/ThirdPersonCharacter_Auto101B6298C4835B0EFB5A0D2BB64D0BA10.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/Autosaves/Game/ProgramBluePrint/Player/Player/ThirdPersonCharacter_Auto1.uasset'
+[2018.07.21-06.40.30:384][459]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/Autosaves/Game/ProgramBluePrint/Player/Player/ThirdPersonCharacter_Auto1.uasset
+[2018.07.21-06.40.30:385][459]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ProgramBluePrint/PlayerObjective/Widget/ObjectiveComplete] ([1] browsable assets)...
+[2018.07.21-06.40.30:385][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/ProgramBluePrint/PlayerObjective/Widget/ObjectiveComplete]
+[2018.07.21-06.40.30:415][459]LogSavePackage: Save=22.71ms
+[2018.07.21-06.40.30:415][459]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/ObjectiveComplete_Auto19897BD7745456E1C48925C9F6927DB2D.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/Autosaves/Game/ProgramBluePrint/PlayerObjective/Widget/ObjectiveComplete_Auto1.uasset'
+[2018.07.21-06.40.30:415][459]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/Autosaves/Game/ProgramBluePrint/PlayerObjective/Widget/ObjectiveComplete_Auto1.uasset
+[2018.07.21-06.40.30:416][459]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ProgramBluePrint/HungerStaminaSystems/Widget/YourHunger] ([1] browsable assets)...
+[2018.07.21-06.40.30:416][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/ProgramBluePrint/HungerStaminaSystems/Widget/YourHunger]
+[2018.07.21-06.40.30:435][459]LogSavePackage: Save=13.03ms
+[2018.07.21-06.40.30:435][459]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/YourHunger_Auto1836DD5EB4FA2F495E77F84ACCC29729E.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/Autosaves/Game/ProgramBluePrint/HungerStaminaSystems/Widget/YourHunger_Auto1.uasset'
+[2018.07.21-06.40.30:436][459]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/Autosaves/Game/ProgramBluePrint/HungerStaminaSystems/Widget/YourHunger_Auto1.uasset
+[2018.07.21-06.40.30:436][459]LogFileHelpers: Auto-saving content packages took 0.483
+[2018.07.21-06.40.49:515][787]LogHttp:Warning: 0000024120190B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.40.49:515][787]LogHttp:Warning: 0000024120190B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.40.49:515][787]LogHttp:Warning: 0000024120190B80: libcurl info message cache 1 (Closing connection 16)
+[2018.07.21-06.41.52:521][ 97]LogHttp:Warning: 000002417F036080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.41.52:521][ 97]LogHttp:Warning: 000002417F036080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.41.52:522][ 97]LogHttp:Warning: 000002417F036080: libcurl info message cache 1 (Closing connection 17)
+[2018.07.21-06.41.59:886][590]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.21-06.42.00:474][590]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.42.00:474][590]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.42.40:454][911]LogMaterial: Missing cached shader map for material Color_F11, compiling. 
+[2018.07.21-06.42.41:027][911]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.07.21-06.42.45:605][911]LogTexture:Display: Building textures: c_002b1 (AutoDXT, 512X256)
+[2018.07.21-06.42.46:286][911]LogMaterial: Missing cached shader map for material BackColor, compiling. 
+[2018.07.21-06.42.47:831][911]LogStaticMesh: Building static mesh Bambo_House...
+[2018.07.21-06.42.49:846][911]LogStaticMesh: Built static mesh [2.01s] /Game/Building/Bambo_House.Bambo_House
+[2018.07.21-06.42.50:049][911]LogTexture:Display: Building textures: 1__ (AutoDXT, 1024X1024)
+[2018.07.21-06.42.52:292][911]LogAudioDerivedData:Display: Building compressed audio format OGG wave CGM_Level_2_-__no_per__...
+[2018.07.21-06.42.56:686][911]LogAIModule: Creating AISystem for world RektoratWorld
+[2018.07.21-06.43.01:419][911]LogSavePackage: Save=17.90ms
+[2018.07.21-06.43.01:419][911]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/YourHunger702941A248E4C8F36E99F7BA7F788E5D.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/HungerStaminaSystems/Widget/YourHunger.uasset'
+[2018.07.21-06.43.01:445][911]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/HungerStaminaSystems/Widget/YourHunger.uasset
+[2018.07.21-06.43.01:839][911]LogSavePackage: Save=293.71ms
+[2018.07.21-06.43.01:839][911]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/ThirdPersonCharacter1E1E353B47A2C451BCCA05A3E0C7F362.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/Player/ThirdPersonCharacter.uasset'
+[2018.07.21-06.43.01:843][911]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/Player/ThirdPersonCharacter.uasset
+[2018.07.21-06.43.01:867][911]LogSavePackage: Save=21.61ms
+[2018.07.21-06.43.01:867][911]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/ObjectiveComplete58E6D56143CE6F61EEA85BB2375988B9.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/PlayerObjective/Widget/ObjectiveComplete.uasset'
+[2018.07.21-06.43.01:896][911]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/PlayerObjective/Widget/ObjectiveComplete.uasset
+[2018.07.21-06.43.01:926][911]Cmd: MAP LOAD FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ThirdPersonBP/Maps/RektoratWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.21-06.43.01:933][911]LightingResults: New page: Lighting Build
+[2018.07.21-06.43.01:936][911]LoadErrors: New page: Loading map: RektoratWorld.umap
+[2018.07.21-06.43.01:940][911]MapCheck: New page: Map Check
+[2018.07.21-06.43.01:940][911]LightingResults: New page: Lighting Build
+[2018.07.21-06.43.02:079][911]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.21-06.43.02:147][911]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.21-06.43.02:267][911]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 120.249ms to complete.
+[2018.07.21-06.43.02:267][911]LogFileHelpers: Loading map 'RektoratWorld' took 0.372
+[2018.07.21-06.43.02:553][914]LogHttp:Warning: 00000241E63FBA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.43.02:553][914]LogHttp:Warning: 00000241E63FBA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.43.02:553][914]LogHttp:Warning: 00000241E63FBA00: libcurl info message cache 1 (Closing connection 18)
+[2018.07.21-06.43.26:182][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ruko)
+[2018.07.21-06.43.34:649][447]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.43.34:687][447]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.43.34:688][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.43.34:688][447]PIE: New page: PIE session: RektoratWorld (Jul 21, 2018, 8:43:34 PM)
+[2018.07.21-06.43.34:688][447]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld
+[2018.07.21-06.43.34:912][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.224757s)
+[2018.07.21-06.43.34:913][447]LogAIModule: Creating AISystem for world RektoratWorld
+[2018.07.21-06.43.34:913][447]LogPlayLevel: PIE: World Init took: (0.001429s)
+[2018.07.21-06.43.34:914][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld to /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld (0.226934s)
+[2018.07.21-06.43.35:022][447]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.43.35:076][447]LogInit: FAudioDevice initialized.
+[2018.07.21-06.43.35:167][447]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.43.35:201][447]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld up for play (max tick rate 0) at 2018.07.21-13.43.35
+[2018.07.21-06.43.35:261][447]LogWorld: Bringing up level for play took: 0.093525
+[2018.07.21-06.43.35:332][447]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld 0.597
+[2018.07.21-06.43.35:333][447]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.43.45:506][779]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.43.45:626][779]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.43.53:405][159]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.21-06.43.54:116][159]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.43.54:116][159]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.43.56:358][278]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.43.56:382][278]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.43.56:382][278]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.43.56:382][278]PIE: New page: PIE session: RektoratWorld (Jul 21, 2018, 8:43:56 PM)
+[2018.07.21-06.43.56:382][278]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld
+[2018.07.21-06.43.56:426][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043527s)
+[2018.07.21-06.43.56:427][278]LogAIModule: Creating AISystem for world RektoratWorld
+[2018.07.21-06.43.56:427][278]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2018.07.21-06.43.56:427][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld to /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld (0.044967s)
+[2018.07.21-06.43.56:470][278]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.43.56:505][278]LogInit: FAudioDevice initialized.
+[2018.07.21-06.43.56:572][278]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.43.56:594][278]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld up for play (max tick rate 0) at 2018.07.21-13.43.56
+[2018.07.21-06.43.56:595][278]LogWorld: Bringing up level for play took: 0.022448
+[2018.07.21-06.43.56:619][278]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld -0.116
+[2018.07.21-06.43.56:620][278]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.44.14:207][810]LogNet: Browse: /Game/ProgramBluePrint/MainMenu/MainMenu
+[2018.07.21-06.44.14:261][810]LogLoad: LoadMap: /Game/ProgramBluePrint/MainMenu/MainMenu
+[2018.07.21-06.44.14:352][810]Cmd: MEM
+[2018.07.21-06.44.14:626][810]LogMemory: Platform Memory Stats for Windows
+[2018.07.21-06.44.14:626][810]LogMemory: Process Physical Memory: 1515.80 MB used, 2455.40 MB peak
+[2018.07.21-06.44.14:626][810]LogMemory: Process Virtual Memory: 4011.26 MB used, 4017.98 MB peak
+[2018.07.21-06.44.14:626][810]LogMemory: Physical Memory: 5922.13 MB used,  2150.41 MB free, 8072.54 MB total
+[2018.07.21-06.44.14:626][810]LogMemory: Virtual Memory: 9281.55 MB used,  2150.41 MB free, 134217728.00 MB total
+[2018.07.21-06.44.14:626][810]LogMemory: 
+[2018.07.21-06.44.14:626][810]Allocator Stats for TBB: (not implemented)
+[2018.07.21-06.44.23:173][810]LogAIModule: Creating AISystem for world MainMenu
+[2018.07.21-06.44.23:173][810]LogLoad: Game class is 'MainMenuGameMode_C'
+[2018.07.21-06.44.23:197][810]LogWorld: Bringing World /Game/ProgramBluePrint/MainMenu/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 3) at 2018.07.21-13.44.23
+[2018.07.21-06.44.23:198][810]LogWorld: Bringing up level for play took: 0.001501
+[2018.07.21-06.44.23:199][810]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.07.21-06.44.23:199][810]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.07.21-06.44.23:254][810]LogLoad: Took 8.992239 seconds to LoadMap(/Game/ProgramBluePrint/MainMenu/MainMenu)
+[2018.07.21-06.44.25:447][824]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.44.28:465][824]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.44.34:692][200]LogHttp:Warning: 000002417F285D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.44.34:692][200]LogHttp:Warning: 000002417F285D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.44.34:692][200]LogHttp:Warning: 000002417F285D80: libcurl info message cache 1 (Closing connection 19)
+[2018.07.21-06.44.48:131][647]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.21-06.44.51:979][647]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.44.51:979][647]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.44.54:710][721]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.44.54:751][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.44.54:751][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.44.54:752][721]PIE: New page: PIE session: RektoratWorld (Jul 21, 2018, 8:44:54 PM)
+[2018.07.21-06.44.54:752][721]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld
+[2018.07.21-06.44.54:928][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.176610s)
+[2018.07.21-06.44.54:930][721]LogAIModule: Creating AISystem for world RektoratWorld
+[2018.07.21-06.44.54:930][721]LogPlayLevel: PIE: World Init took: (0.001434s)
+[2018.07.21-06.44.54:931][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld to /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld (0.179150s)
+[2018.07.21-06.44.55:007][721]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.44.55:066][721]LogInit: FAudioDevice initialized.
+[2018.07.21-06.44.55:160][721]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.44.55:199][721]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld up for play (max tick rate 0) at 2018.07.21-13.44.55
+[2018.07.21-06.44.55:202][721]LogWorld: Bringing up level for play took: 0.041430
+[2018.07.21-06.44.55:235][721]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld 0.5
+[2018.07.21-06.44.55:236][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.45.46:488][341]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.45.46:606][341]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.45.48:067][423]LogHttp:Warning: 0000024190309780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.45.48:067][423]LogHttp:Warning: 0000024190309780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.45.48:067][423]LogHttp:Warning: 0000024190309780: libcurl info message cache 1 (Closing connection 20)
+[2018.07.21-06.46.49:510][918]LogHttp:Warning: 0000024146EE4E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.46.49:510][918]LogHttp:Warning: 0000024146EE4E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.46.49:510][918]LogHttp:Warning: 0000024146EE4E80: libcurl info message cache 1 (Closing connection 21)
+[2018.07.21-06.47.49:530][393]LogHttp:Warning: 000002410364D480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.47.49:530][393]LogHttp:Warning: 000002410364D480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.47.49:530][393]LogHttp:Warning: 000002410364D480: libcurl info message cache 1 (Closing connection 22)
+[2018.07.21-06.48.21:042][350]LogSavePackage: Save=335.83ms
+[2018.07.21-06.48.21:042][350]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/ThirdPersonCharacter46D247BA4089927FC5DB238FD0D3A599.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/Player/ThirdPersonCharacter.uasset'
+[2018.07.21-06.48.21:045][350]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/Player/ThirdPersonCharacter.uasset
+[2018.07.21-06.48.22:768][447]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.21-06.48.22:922][447]LogBlueprint:Error: [Compiler ThirdPersonCharacter] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2018.07.21-06.48.22:922][447]LogBlueprint:Error: [Compiler ThirdPersonCharacter] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2018.07.21-06.48.23:662][447]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.48.23:662][447]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.48.23:662][447]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2018.07.21-06.48.23:662][447]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2018.07.21-06.48.23:662][447]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [2076.38] Compile of ThirdPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 893 ms] (/Game/ProgramBluePrint/Player/Player/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.07.21-06.48.34:584][ 59]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.21-06.48.35:218][ 59]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.48.35:218][ 59]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.48.38:338][230]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.48.38:361][230]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.48.38:361][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.48.38:361][230]PIE: New page: PIE session: RektoratWorld (Jul 21, 2018, 8:48:38 PM)
+[2018.07.21-06.48.38:361][230]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld
+[2018.07.21-06.48.38:403][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041835s)
+[2018.07.21-06.48.38:404][230]LogAIModule: Creating AISystem for world RektoratWorld
+[2018.07.21-06.48.38:404][230]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2018.07.21-06.48.38:404][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld to /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld (0.043442s)
+[2018.07.21-06.48.38:446][230]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.48.38:482][230]LogInit: FAudioDevice initialized.
+[2018.07.21-06.48.38:549][230]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.48.38:570][230]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld up for play (max tick rate 0) at 2018.07.21-13.48.38
+[2018.07.21-06.48.38:572][230]LogWorld: Bringing up level for play took: 0.022087
+[2018.07.21-06.48.38:594][230]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld -0.141
+[2018.07.21-06.48.38:595][230]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.48.38:643][230]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue4
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ProgramBluePrint/Player/Player/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:01D8
+[2018.07.21-06.48.38:643][230]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue4 from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Set Visibility in graph: EventGraph in object: ThirdPersonCharacter with description: Accessed None trying to read property CallFunc_Create_ReturnValue4
+[2018.07.21-06.48.41:863][340]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.48.41:957][340]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.49.22:796][790]LogHttp:Warning: 00000241144DD480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.49.22:796][790]LogHttp:Warning: 00000241144DD480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.49.22:796][790]LogHttp:Warning: 00000241144DD480: libcurl info message cache 1 (Closing connection 23)
+[2018.07.21-06.49.35:465][557]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.21-06.49.36:125][557]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.49.36:125][557]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.49.37:412][623]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.49.37:435][623]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.49.37:435][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.49.37:435][623]PIE: New page: PIE session: RektoratWorld (Jul 21, 2018, 8:49:37 PM)
+[2018.07.21-06.49.37:435][623]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld
+[2018.07.21-06.49.37:477][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041781s)
+[2018.07.21-06.49.37:478][623]LogAIModule: Creating AISystem for world RektoratWorld
+[2018.07.21-06.49.37:478][623]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2018.07.21-06.49.37:478][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld to /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld (0.043169s)
+[2018.07.21-06.49.37:521][623]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.49.37:552][623]LogInit: FAudioDevice initialized.
+[2018.07.21-06.49.37:619][623]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.49.37:643][623]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld up for play (max tick rate 0) at 2018.07.21-13.49.37
+[2018.07.21-06.49.37:645][623]LogWorld: Bringing up level for play took: 0.025483
+[2018.07.21-06.49.37:666][623]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld 0.931
+[2018.07.21-06.49.37:667][623]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.50.32:543][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.50.32:654][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.50.34:041][425]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.50.34:062][425]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.50.34:063][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.50.34:063][425]PIE: New page: PIE session: RektoratWorld (Jul 21, 2018, 8:50:34 PM)
+[2018.07.21-06.50.34:063][425]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld
+[2018.07.21-06.50.34:101][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037847s)
+[2018.07.21-06.50.34:101][425]LogAIModule: Creating AISystem for world RektoratWorld
+[2018.07.21-06.50.34:102][425]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2018.07.21-06.50.34:102][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld to /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld (0.039341s)
+[2018.07.21-06.50.34:141][425]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.50.34:171][425]LogInit: FAudioDevice initialized.
+[2018.07.21-06.50.34:235][425]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.50.34:255][425]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld up for play (max tick rate 0) at 2018.07.21-13.50.34
+[2018.07.21-06.50.34:257][425]LogWorld: Bringing up level for play took: 0.020502
+[2018.07.21-06.50.34:276][425]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld -0.46
+[2018.07.21-06.50.34:276][425]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.50.35:557][457]LogHttp:Warning: 000002421C3F6C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.50.35:557][457]LogHttp:Warning: 000002421C3F6C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.50.35:557][457]LogHttp:Warning: 000002421C3F6C80: libcurl info message cache 1 (Closing connection 24)
+[2018.07.21-06.51.28:571][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.51.28:699][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.51.49:547][374]LogHttp:Warning: 000002419F55DF00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.51.49:547][374]LogHttp:Warning: 000002419F55DF00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.51.49:547][374]LogHttp:Warning: 000002419F55DF00: libcurl info message cache 1 (Closing connection 25)
+[2018.07.21-06.51.56:705][854]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.21-06.51.57:324][854]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.51.57:324][854]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.07.21-06.51.58:221][900]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.51.58:242][900]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.51.58:242][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.51.58:243][900]PIE: New page: PIE session: RektoratWorld (Jul 21, 2018, 8:51:58 PM)
+[2018.07.21-06.51.58:243][900]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld
+[2018.07.21-06.51.58:280][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038363s)
+[2018.07.21-06.51.58:281][900]LogAIModule: Creating AISystem for world RektoratWorld
+[2018.07.21-06.51.58:281][900]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2018.07.21-06.51.58:281][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld to /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld (0.039644s)
+[2018.07.21-06.51.58:322][900]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.51.58:352][900]LogInit: FAudioDevice initialized.
+[2018.07.21-06.51.58:418][900]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.51.58:437][900]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld up for play (max tick rate 0) at 2018.07.21-13.51.58
+[2018.07.21-06.51.58:438][900]LogWorld: Bringing up level for play took: 0.019532
+[2018.07.21-06.51.58:457][900]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld -0.277
+[2018.07.21-06.51.58:458][900]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.52.48:375][483]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.52.48:473][483]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.52.51:643][674]LogHttp:Warning: 00000241E2C53D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.52.51:643][674]LogHttp:Warning: 00000241E2C53D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.52.51:643][674]LogHttp:Warning: 00000241E2C53D00: libcurl info message cache 1 (Closing connection 26)
+[2018.07.21-06.53.34:519][195]LogSavePackage: Save=292.24ms
+[2018.07.21-06.53.34:519][195]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/ThirdPersonCharacter4D1727794D1282FC1C100D85D65A157A.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/Player/ThirdPersonCharacter.uasset'
+[2018.07.21-06.53.34:521][195]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/Player/ThirdPersonCharacter.uasset
+[2018.07.21-06.54.16:674][355]LogEditorViewport: Clicking on Actor (LMB): DialogueBot_C (DialogueBot)
+[2018.07.21-06.54.49:515][808]LogHttp:Warning: 000002419FDD1300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.54.49:515][808]LogHttp:Warning: 000002419FDD1300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.54.49:515][808]LogHttp:Warning: 000002419FDD1300: libcurl info message cache 1 (Closing connection 27)
+[2018.07.21-06.55.41:846][495]BlueprintLog: New page: Compile DialogueBot
+[2018.07.21-06.55.47:817][679]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.55.47:844][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.55.47:845][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.55.47:845][679]PIE: New page: PIE session: RektoratWorld (Jul 21, 2018, 8:55:47 PM)
+[2018.07.21-06.55.47:845][679]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld
+[2018.07.21-06.55.47:884][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038687s)
+[2018.07.21-06.55.47:884][679]LogAIModule: Creating AISystem for world RektoratWorld
+[2018.07.21-06.55.47:885][679]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2018.07.21-06.55.47:885][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld to /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld (0.040208s)
+[2018.07.21-06.55.48:036][679]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.55.48:072][679]LogInit: FAudioDevice initialized.
+[2018.07.21-06.55.48:130][679]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.55.48:152][679]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld up for play (max tick rate 0) at 2018.07.21-13.55.48
+[2018.07.21-06.55.48:154][679]LogWorld: Bringing up level for play took: 0.023409
+[2018.07.21-06.55.48:166][679]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld -0.568
+[2018.07.21-06.55.48:167][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.55.49:560][713]LogHttp:Warning: 000002419C964100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.55.49:561][713]LogHttp:Warning: 000002419C964100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.55.49:561][713]LogHttp:Warning: 000002419C964100: libcurl info message cache 1 (Closing connection 28)
+[2018.07.21-06.56.08:658][413]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.56.08:754][413]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.57.22:583][488]LogHttp:Warning: 0000024206580B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.57.22:583][488]LogHttp:Warning: 0000024206580B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.57.22:583][488]LogHttp:Warning: 0000024206580B80: libcurl info message cache 1 (Closing connection 29)
+[2018.07.21-06.57.36:305][864]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.07.21-06.57.36:341][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.57.36:341][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.21-06.57.36:342][864]PIE: New page: PIE session: RektoratWorld (Jul 21, 2018, 8:57:36 PM)
+[2018.07.21-06.57.36:342][864]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld
+[2018.07.21-06.57.36:384][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041913s)
+[2018.07.21-06.57.36:384][864]LogAIModule: Creating AISystem for world RektoratWorld
+[2018.07.21-06.57.36:385][864]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2018.07.21-06.57.36:385][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld to /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld (0.043603s)
+[2018.07.21-06.57.36:472][864]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-06.57.36:510][864]LogInit: FAudioDevice initialized.
+[2018.07.21-06.57.36:567][864]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-06.57.36:588][864]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld.RektoratWorld up for play (max tick rate 0) at 2018.07.21-13.57.36
+[2018.07.21-06.57.36:590][864]LogWorld: Bringing up level for play took: 0.022298
+[2018.07.21-06.57.36:604][864]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RektoratWorld -0.13
+[2018.07.21-06.57.36:605][864]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.58.00:438][159]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.58.01:527][159]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld' with GeneratedClass '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/RektoratWorld.RektoratWorld:PersistentLevel.RektoratWorld'
+[2018.07.21-06.58.04:115][161]LogEditorViewport: Clicking on Actor (LMB): DialogueBot2_C (DialogueBot2)
+[2018.07.21-06.58.05:389][168]Cmd: DELETE
+[2018.07.21-06.58.05:389][168]Cmd: ACTOR DELETE
+[2018.07.21-06.58.05:469][168]LogEditorActor: Deleted Actor: DialogueBot2_C
+[2018.07.21-06.58.05:940][168]LogEditorActor: Deleted 1 Actors (0.500 secs)
+[2018.07.21-06.58.12:673][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProgramBluePrint/Player/AI/DialogueBot2" FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot2.uasset" SILENT=true
+[2018.07.21-06.58.12:759][323]LogSavePackage: Save=71.58ms
+[2018.07.21-06.58.12:759][323]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/DialogueBot275CE85CC48E2FE36BD4AFDB8652178D0.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot2.uasset'
+[2018.07.21-06.58.12:775][323]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot2.uasset
+[2018.07.21-06.58.14:746][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProgramBluePrint/Player/AI/DialogueBot" FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot.uasset" SILENT=true
+[2018.07.21-06.58.14:845][390]LogSavePackage: Save=49.23ms
+[2018.07.21-06.58.14:845][390]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/DialogueBot13F8506940D7A649B1DF0DBF73B216A7.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot.uasset'
+[2018.07.21-06.58.14:848][390]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot.uasset
+[2018.07.21-06.58.36:384][121]LogHttp:Warning: 0000024120353D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.58.36:384][121]LogHttp:Warning: 0000024120353D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.58.36:384][121]LogHttp:Warning: 0000024120353D00: libcurl info message cache 1 (Closing connection 30)
+[2018.07.21-06.59.15:417][582]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.07.21-06.59.49:545][796]LogHttp:Warning: 0000024240E59180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-06.59.49:545][796]LogHttp:Warning: 0000024240E59180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-06.59.49:545][796]LogHttp:Warning: 0000024240E59180: libcurl info message cache 1 (Closing connection 31)
+[2018.07.21-07.01.33:496][ 61]LogHttp:Warning: 000002416DC01900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-07.01.33:496][ 61]LogHttp:Warning: 000002416DC01900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-07.01.33:496][ 61]LogHttp:Warning: 000002416DC01900: libcurl info message cache 1 (Closing connection 32)
+[2018.07.21-07.02.02:285][963]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.07.21-07.02.06:769][ 83]LogSavePackage: Save=981.79ms
+[2018.07.21-07.02.06:769][ 83]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/RektoratWorld1907B78F48609F8FCF35AB85BF0EBA14.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ThirdPersonBP/Maps/RektoratWorld.umap'
+[2018.07.21-07.02.06:772][ 83]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ThirdPersonBP/Maps/RektoratWorld.umap
+[2018.07.21-07.02.14:972][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProgramBluePrint/Player/AI/DialogueBot3" FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot3.uasset" SILENT=true
+[2018.07.21-07.02.15:003][498]LogSavePackage: Save=24.08ms
+[2018.07.21-07.02.15:003][498]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/DialogueBot37984205A402E183A0DC5A9BEDCC6005A.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot3.uasset'
+[2018.07.21-07.02.15:005][498]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot3.uasset
+[2018.07.21-07.02.15:047][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProgramBluePrint/Player/AI/DialogueBot4" FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot4.uasset" SILENT=true
+[2018.07.21-07.02.15:092][498]LogSavePackage: Save=35.68ms
+[2018.07.21-07.02.15:092][498]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/DialogueBot44EA402B5430869292B96B2A4CCE20C7E.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot4.uasset'
+[2018.07.21-07.02.15:094][498]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot4.uasset
+[2018.07.21-07.02.15:123][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProgramBluePrint/Player/AI/DialogueBot5" FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot5.uasset" SILENT=true
+[2018.07.21-07.02.15:156][498]LogSavePackage: Save=24.41ms
+[2018.07.21-07.02.15:156][498]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/DialogueBot533B998FF467F41F0C5BC489C2BA693FF.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot5.uasset'
+[2018.07.21-07.02.15:158][498]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot5.uasset
+[2018.07.21-07.02.15:188][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProgramBluePrint/Player/AI/DialogueBot6" FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot6.uasset" SILENT=true
+[2018.07.21-07.02.15:220][498]LogSavePackage: Save=24.74ms
+[2018.07.21-07.02.15:220][498]LogSavePackage: Moving 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/DialogueBot6C58284F94683D39454D14CBFE6D59BC4.tmp' to 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot6.uasset'
+[2018.07.21-07.02.15:222][498]LogSavePackage:Display: Finished SavePackage E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/Player/AI/DialogueBot6.uasset
+[2018.07.21-07.02.49:485][173]LogHttp:Warning: 00000241179AB880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-07.02.49:485][173]LogHttp:Warning: 00000241179AB880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-07.02.49:485][173]LogHttp:Warning: 00000241179AB880: libcurl info message cache 1 (Closing connection 33)
+[2018.07.21-07.03.49:540][190]LogHttp:Warning: 000002417F27C100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-07.03.49:540][190]LogHttp:Warning: 000002417F27C100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-07.03.49:540][190]LogHttp:Warning: 000002417F27C100: libcurl info message cache 1 (Closing connection 34)
+[2018.07.21-07.05.49:507][844]LogHttp:Warning: 000002410046FA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-07.05.49:507][844]LogHttp:Warning: 000002410046FA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-07.05.49:507][844]LogHttp:Warning: 000002410046FA00: libcurl info message cache 1 (Closing connection 35)
+[2018.07.21-07.06.49:523][929]LogHttp:Warning: 000002410046C880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-07.06.49:523][929]LogHttp:Warning: 000002410046C880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-07.06.49:523][929]LogHttp:Warning: 000002410046C880: libcurl info message cache 1 (Closing connection 36)
+[2018.07.21-07.07.49:536][971]LogHttp:Warning: 0000024262BCA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.21-07.07.49:536][971]LogHttp:Warning: 0000024262BCA800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.21-07.07.49:536][971]LogHttp:Warning: 0000024262BCA800: libcurl info message cache 1 (Closing connection 37)
+[2018.07.21-07.08.34:108][ 30]LogWindows: Windows GetLastError: The operation completed successfully. (0)

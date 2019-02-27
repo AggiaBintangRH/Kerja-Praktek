@@ -1,0 +1,900 @@
+﻿Log file open, 02/20/19 18:31:39
+LogInit:Display: Running engine for game: KP_remastered2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1088273643) SRandInit(-1088273643).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 5.770532
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.20-11.31.41:836][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.20-11.31.41:836][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.20-11.31.42:091][  0]LogInit: Computer: DESKTOP-USEAEF3
+[2019.02.20-11.31.42:092][  0]LogInit: User: DigitalSilence
+[2019.02.20-11.31.42:092][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.02.20-11.31.42:092][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.20-11.31.42:151][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.02.20-11.31.42:151][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.20-11.31.42:151][  0]LogMemory: Process Physical Memory: 275.13 MB used, 275.13 MB peak
+[2019.02.20-11.31.42:151][  0]LogMemory: Process Virtual Memory: 266.43 MB used, 266.43 MB peak
+[2019.02.20-11.31.42:151][  0]LogMemory: Physical Memory: 3452.36 MB used,  4620.18 MB free, 8072.54 MB total
+[2019.02.20-11.31.42:151][  0]LogMemory: Virtual Memory: 4775.75 MB used,  4620.18 MB free, 134217728.00 MB total
+[2019.02.20-11.31.43:509][  0]LogInit: Using OS detected language (en-US).
+[2019.02.20-11.31.43:509][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.20-11.31.43:855][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.20-11.31.54:637][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.20-11.31.54:744][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 930MX' (Feature Level 11_0)
+[2019.02.20-11.31.54:744][  0]LogD3D11RHI:       2010/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.20-11.31.54:781][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2019.02.20-11.31.54:782][  0]LogD3D11RHI:       128/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.02.20-11.31.54:784][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.20-11.31.54:784][  0]LogD3D11RHI:       0/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.20-11.31.54:784][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.20-11.31.54:806][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.20-11.31.54:807][  0]LogD3D11RHI:     GPU DeviceId: 0x134e (for the marketing name, search the web for "GPU Device Id")
+[2019.02.20-11.31.54:807][  0]LogWindows: EnumDisplayDevices:
+[2019.02.20-11.31.54:807][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:0 D:1)
+[2019.02.20-11.31.54:807][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2019.02.20-11.31.54:807][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2019.02.20-11.31.54:807][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.02.20-11.31.54:807][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 930MX
+[2019.02.20-11.31.54:807][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.02.20-11.31.54:807][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.02.20-11.31.54:808][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.02.20-11.31.54:897][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.20-11.31.55:401][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.20-11.31.55:733][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Intermediate/Shaders/WorkingDirectory/5984/).
+[2019.02.20-11.31.55:733][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ASUS/AppData/Local/Temp/UnrealShaderWorkingDir/949F252E4000DF7903664F9B236C02FC/'.
+[2019.02.20-11.31.55:751][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.02.20-11.32.03:939][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.20-11.32.04:024][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2019.02.20-11.32.04:110][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.20-11.32.04:199][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2019.02.20-11.32.04:327][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2019.02.20-11.32.04:424][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.20-11.32.04:518][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.20-11.32.04:629][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.20-11.32.04:720][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.02.20-11.32.04:833][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-11.32.04:914][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.02.20-11.32.04:997][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.02.20-11.32.05:100][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.02.20-11.32.05:179][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.02.20-11.32.05:275][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.02.20-11.32.05:436][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.02.20-11.32.05:436][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.02.20-11.32.05:508][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.02.20-11.32.05:830][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.02.20-11.32.05:875][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.02.20-11.32.05:968][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.20-11.32.06:051][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.20-11.32.06:150][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.20-11.32.06:269][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.02.20-11.32.06:269][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.02.20-11.32.08:071][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.02.20-11.32.09:255][  0]LogDerivedDataCache: Loaded boot cache 1.17s 90MB C:/Users/ASUS/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2019.02.20-11.32.09:255][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ASUS/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2019.02.20-11.32.09:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.20-11.32.09:255][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.20-11.32.09:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.20-11.32.09:255][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.20-11.32.09:319][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.20-11.32.09:363][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ASUS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.20-11.32.09:431][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.20-11.32.09:500][  0]LogSlate: Using Freetype 2.6.0
+[2019.02.20-11.32.09:665][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.20-11.32.09:665][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.20-11.32.19:751][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.20-11.32.21:211][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.02.20-11.32.22:234][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.20-11.32.22:422][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.20-11.32.22:560][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.20-11.32.22:560][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.02.20-11.32.22:560][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.02.20-11.32.29:683][  0]LogNetVersion: KP_remastered2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3294817228)
+[2019.02.20-11.32.30:093][  0]LogAssetRegistry: FAssetRegistry took 0.0376 seconds to start up
+[2019.02.20-11.32.30:336][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.141709 seconds
+[2019.02.20-11.32.30:342][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2019.02.20-11.32.30:342][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2019.02.20-11.32.30:342][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.20-11.32.30:487][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.02.20-11.33.01:013][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.20-11.33.01:100][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.20-11.33.03:342][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.02.20-11.33.04:648][  0]SourceControl: Info Source control is disabled
+[2019.02.20-11.33.04:708][  0]SourceControl: Info Source control is disabled
+[2019.02.20-11.33.04:904][  0]SourceControl: Info Source control is disabled
+[2019.02.20-11.33.05:027][  0]SourceControl: Info Source control is disabled
+[2019.02.20-11.33.05:334][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Plugins/DialogueSystem/Content/Icons/QuestBookEditor/icon_Add_Quest_40x.png' error.
+[2019.02.20-11.33.05:334][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/DialogueSystem/Content/Icons/QuestBookEditor/icon_Add_Quest_40x.png
+[2019.02.20-11.33.07:502][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.20-11.33.09:014][  0]LogEngine: Initializing Engine...
+[2019.02.20-11.33.09:065][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.20-11.33.10:186][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.20-11.33.10:187][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.20-11.33.10:827][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.20-11.33.11:053][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-11.33.11:117][  0]LogInit: FAudioDevice initialized.
+[2019.02.20-11.33.11:304][  0]LogDerivedDataCache: Saved boot cache 0.19s 90MB C:/Users/ASUS/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2019.02.20-11.33.11:441][  0]LogInit: Texture streaming: Enabled
+[2019.02.20-11.33.12:038][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.20-11.33.13:598][  0]LogInit: Transaction tracking system initialized
+[2019.02.20-11.33.15:886][  0]BlueprintLog: New page: Editor Load
+[2019.02.20-11.33.22:552][  0]LocalizationService: Info Localization service is disabled
+[2019.02.20-11.33.25:391][  0]LogConsoleResponse:Display: 
+[2019.02.20-11.33.29:233][  0]LogFileCache: Scanning file cache for directory 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/' took 0.03s
+[2019.02.20-11.33.29:233][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.20-11.33.29:233][  0]LogCook:Display: Mobile HDR setting 1
+[2019.02.20-11.33.36:402][  0]SourceControl: Info Source control is disabled
+[2019.02.20-11.33.36:494][  0]Cmd: MAP LOAD FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ProgramBluePrint/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.20-11.33.36:654][  0]LightingResults: New page: Lighting Build
+[2019.02.20-11.33.37:136][  0]MapCheck: New page: Map Check
+[2019.02.20-11.33.37:136][  0]LightingResults: New page: Lighting Build
+[2019.02.20-11.33.41:755][  0]LogTexture:Display: Building textures: DS_Logo (BGRA8, 2508X1895)
+[2019.02.20-11.33.42:392][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave SB_In-Game_Theme_02_30s...
+[2019.02.20-11.33.44:079][  0]LogTexture:Display: Building textures: StartGameHover (BGRA8, 295X91)
+[2019.02.20-11.33.44:082][  0]LogTexture:Display: Building textures: OptionsHover (BGRA8, 295X91)
+[2019.02.20-11.33.44:086][  0]LogTexture:Display: Building textures: Enter (BGRA8, 255X128)
+[2019.02.20-11.33.44:091][  0]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.20-11.33.44:748][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.20-11.33.44:913][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.20-11.33.45:137][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 224.588ms to complete.
+[2019.02.20-11.33.45:138][  0]LogFileHelpers: Loading map 'MainMenu' took 8.670
+[2019.02.20-11.33.51:514][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.02.20-11.33.51:960][  0]LogSlate: Took 0.110461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.20-11.33.52:043][  0]LogSlate: Took 0.080119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.20-11.33.53:248][  0]LogRenderer: Reallocating scene render targets to support 884x756 NumSamples 1 (Frame:1).
+[2019.02.20-11.33.56:242][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.02.20-11.33.56:483][  0]LogLoad: (Engine Initialization) Total time: 154.78 seconds
+[2019.02.20-11.33.56:483][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.47 seconds
+[2019.02.20-11.33.56:483][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.02.20-11.33.56:569][  0]LogOcInput: OculusInput pre-init called
+[2019.02.20-11.33.56:569][  0]LogHMD: Starting GearVRController plugin
+[2019.02.20-11.33.56:833][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.20-11.33.57:269][  4]LogAssetRegistry: Asset discovery search completed in 87.1995 seconds
+[2019.02.20-11.33.57:455][  4]LogCollectionManager: Loaded 0 collections in 0.002166 seconds
+[2019.02.20-11.33.57:501][  4]LogFileCache: Scanning file cache for directory 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/Collections/' took 0.01s
+[2019.02.20-11.33.57:501][  4]LogFileCache: Scanning file cache for directory 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/Developers/DigitalSilence/Collections/' took 0.01s
+[2019.02.20-11.33.57:501][  4]LogFileCache: Scanning file cache for directory 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/Collections/' took 0.01s
+[2019.02.20-11.33.57:501][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2019.02.20-11.33.57:501][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2019.02.20-11.34.47:496][920]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.02.20-11.34.47:528][920]LogContentBrowser: Native class hierarchy populated in 0.0170 seconds. Added 2345 classes and 503 folders.
+[2019.02.20-11.34.47:747][920]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.20-11.34.49:786][920]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.20-11.34.49:839][920]LogSlate: Took 0.023301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.20-11.34.50:036][920]LogSlate: Took 0.019893 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.02.20-11.34.56:597][289]LogHttp:Warning: 000002D4AEBADA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.34.56:597][289]LogHttp:Warning: 000002D4AEBADA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.34.56:597][289]LogHttp:Warning: 000002D4AEBADA80: libcurl info message cache 1 (Closing connection 0)
+[2019.02.20-11.34.59:650][468]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.02.20-11.35.00:710][468]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.20-11.35.17:346][468]LogStaticMesh: Building static mesh Paramedic_Bag...
+[2019.02.20-11.35.17:838][468]LogStaticMesh: Built static mesh [0.49s] /Game/Item/Paramedic_Bag.Paramedic_Bag
+[2019.02.20-11.35.18:033][468]LogStaticMesh: Building static mesh PapanDada...
+[2019.02.20-11.35.18:044][468]LogStaticMesh: Built static mesh [0.04s] /Game/Item/PapanDada.PapanDada
+[2019.02.20-11.35.18:767][468]LogStaticMesh: Building static mesh Cangkir...
+[2019.02.20-11.35.31:199][468]LogStaticMesh: Built static mesh [12.43s] /Game/Indoor/Cangkir.Cangkir
+[2019.02.20-11.35.31:644][468]LogStaticMesh: Building static mesh eb_dresser_01...
+[2019.02.20-11.35.31:666][468]LogStaticMesh: Built static mesh [0.02s] /Game/Indoor/eb_dresser_01.eb_dresser_01
+[2019.02.20-11.35.31:844][468]LogStaticMesh: Building static mesh Flower_001...
+[2019.02.20-11.35.31:849][468]LogStaticMesh: Built static mesh [0.00s] /Game/Outdor/Flower_001.Flower_001
+[2019.02.20-11.35.32:638][468]LogStaticMesh: Building static mesh knife010...
+[2019.02.20-11.35.32:643][468]LogStaticMesh: Built static mesh [0.01s] /Game/Item/knife010.knife010
+[2019.02.20-11.35.32:953][468]LogStaticMesh: Building static mesh Laptop...
+[2019.02.20-11.35.32:957][468]LogStaticMesh: Built static mesh [0.07s] /Game/Indoor/Laptop.Laptop
+[2019.02.20-11.35.33:181][468]LogStaticMesh: Building static mesh MejaKamar...
+[2019.02.20-11.35.33:199][468]LogStaticMesh: Built static mesh [0.06s] /Game/Indoor/MejaKamar.MejaKamar
+[2019.02.20-11.35.33:625][468]LogStaticMesh: Building static mesh Private_Dwelling_Door_2_door...
+[2019.02.20-11.35.33:629][468]LogStaticMesh: Built static mesh [0.00s] /Game/Building/Private_Dwelling_Door_2_door.Private_Dwelling_Door_2_door
+[2019.02.20-11.35.34:670][468]LogStaticMesh: Building static mesh SM_Curtain...
+[2019.02.20-11.35.34:673][468]LogStaticMesh: Built static mesh [0.02s] /Game/ArchVis/Mesh/SM_Curtain.SM_Curtain
+[2019.02.20-11.35.34:863][468]LogStaticMesh: Building static mesh SM_Door...
+[2019.02.20-11.35.34:880][468]LogStaticMesh: Built static mesh [0.02s] /Game/ArchVis/Mesh/SM_Door.SM_Door
+[2019.02.20-11.35.35:478][468]LogStaticMesh: Building static mesh SM_Vase_1...
+[2019.02.20-11.35.35:489][468]LogStaticMesh: Built static mesh [0.07s] /Game/ArchVis/Mesh/SM_Vase_1.SM_Vase_1
+[2019.02.20-11.35.35:648][468]LogStaticMesh: Building static mesh Statue...
+[2019.02.20-11.35.35:729][468]LogStaticMesh: Built static mesh [0.10s] /Game/ArchVis/Mesh/Statue.Statue
+[2019.02.20-11.35.36:764][468]LogTexture:Display: Building textures: FoodUIIcon (BGRA8, 63X65)
+[2019.02.20-11.35.37:438][468]LogTexture:Display: Building textures: c_001bt (AutoDXT, 512X256)
+[2019.02.20-11.35.37:492][468]LogMaterial: Missing cached shader map for material c_001_mat, compiling. 
+[2019.02.20-11.35.38:135][468]LogTexture:Display: Building textures: brick01a_brick01_nmap (BC5, 1024X1024)
+[2019.02.20-11.35.38:313][468]LogTexture:Display: Building textures: BR7 (BGRA8, 300X202)
+[2019.02.20-11.35.38:397][468]LogTexture:Display: Building textures: Bread1 (AutoDXT, 1024X1024)
+[2019.02.20-11.35.39:836][468]LogTexture:Display: Building textures: Paramedic_Bag_D (AutoDXT, 512X1024)
+[2019.02.20-11.35.40:030][468]LogMaterial: Missing cached shader map for material Paramedic_Bag1, compiling. 
+[2019.02.20-11.35.40:052][468]LogAudioDerivedData:Display: Building compressed audio format OGG wave CGM_Game_Lose_1__fast_...
+[2019.02.20-11.35.40:337][468]LogTexture:Display: Building textures: brick01a_brick01_color (AutoDXT, 1024X1024)
+[2019.02.20-11.35.41:191][468]LogStaticMesh: Building static mesh brick01a...
+[2019.02.20-11.35.41:194][468]LogStaticMesh: Built static mesh [0.00s] /Game/ProgramBluePrint/Inventory/AssetInvent/brick01a.brick01a
+[2019.02.20-11.35.41:394][468]LogTexture:Display: Building textures: brick01c_color (AutoDXT, 1024X1024)
+[2019.02.20-11.35.43:100][468]LogTexture:Display: Building textures: PAPER_TE (BGRA8, 2750X2075)
+[2019.02.20-11.35.44:109][468]LogTexture:Display: Building textures: DIRT_BL (AutoDXT, 1600X1600)
+[2019.02.20-11.35.46:500][468]LogMaterial: Missing cached shader map for material Plastic, compiling. 
+[2019.02.20-11.35.47:102][468]LogTexture:Display: Building textures: 159_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.35.48:021][468]LogTexture:Display: Building textures: 163_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.35.48:972][468]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2019.02.20-11.35.48:989][468]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 128X64)
+[2019.02.20-11.35.49:110][468]LogTexture:Display: Building textures: T_Table_N (BC5, 2048X2048)
+[2019.02.20-11.35.49:829][468]LogTexture:Display: Building textures: T_Table_M (DXT1, 2048X2048)
+[2019.02.20-11.35.50:462][468]LogTexture:Display: Building textures: T_Table_AOMASK (DXT1, 2048X2048)
+[2019.02.20-11.35.51:883][468]LogTexture:Display: Building textures: T_Wood (DXT1, 2048X2048)
+[2019.02.20-11.35.58:360][468]LogTexture:Display: Building textures: T_Wood_S (AutoDXT, 2048X2048)
+[2019.02.20-11.36.01:531][468]LogMaterial: Missing cached shader map for material _auto_1, compiling. 
+[2019.02.20-11.36.01:563][468]LogMaterial: Missing cached shader map for material M_Ceramic_Mat, compiling. 
+[2019.02.20-11.36.01:614][468]LogTexture:Display: Building textures: Kertas (BGRA8, 216X202)
+[2019.02.20-11.36.01:958][468]LogTexture:Display: Building textures: T_Door_AOMask (DXT1, 2048X2048)
+[2019.02.20-11.36.03:643][468]LogTexture:Display: Building textures: T_Door_M (DXT1, 2048X2048)
+[2019.02.20-11.36.04:323][468]LogTexture:Display: Building textures: T_Door_N (BC5, 2048X2048)
+[2019.02.20-11.36.05:149][468]LogTexture:Display: Building textures: T_Anisotrophic_M (DXT1, 1024X1024)
+[2019.02.20-11.36.06:963][468]LogTexture:Display: Building textures: T_Anisotrophic_N (BC5, 1024X1024)
+[2019.02.20-11.36.07:465][468]LogTexture:Display: Building textures: T_FloorLamp_N (BC5, 2048X2048)
+[2019.02.20-11.36.08:201][468]LogTexture:Display: Building textures: T_FloorLamp_M (DXT1, 2048X2048)
+[2019.02.20-11.36.08:890][468]LogTexture:Display: Building textures: T_FloorLamp_AO (DXT1, 2048X2048)
+[2019.02.20-11.36.10:659][468]LogTexture:Display: Building textures: T_DeskLamp_N (BC5, 1024X1024)
+[2019.02.20-11.36.10:842][468]LogMaterial: Missing cached shader map for material M_DeskLamp_Mat, compiling. 
+[2019.02.20-11.36.11:078][468]LogTexture:Display: Building textures: T_Fabric_N (BC5, 1024X1024)
+[2019.02.20-11.36.11:424][468]LogTexture:Display: Building textures: T_Fabric_M (DXT1, 1024X1024)
+[2019.02.20-11.36.13:375][468]LogTexture:Display: Building textures: T_Cloth_N (BC5, 2048X2048)
+[2019.02.20-11.36.14:691][468]LogTexture:Display: Building textures: T_Cloth_D (DXT1, 2048X2048)
+[2019.02.20-11.36.19:745][468]LogTexture:Display: Building textures: T_Leather_N (BC5, 2048X2048)
+[2019.02.20-11.36.21:113][468]LogTexture:Display: Building textures: T_Leather_D (DXT1, 2048X2048)
+[2019.02.20-11.36.28:598][468]LogTexture:Display: Building textures: T_Couch_N (BC5, 4096X4096)
+[2019.02.20-11.36.30:883][468]LogTexture:Display: Building textures: T_Couch_Mask (DXT1, 2048X2048)
+[2019.02.20-11.36.32:051][468]LogTexture:Display: Building textures: T_Couch_AO (AutoDXT, 4096X4096)
+[2019.02.20-11.36.45:487][468]LogTexture:Display: Building textures: T_Leather_S (DXT1, 2048X2048)
+[2019.02.20-11.36.46:919][468]LogTexture:Display: Building textures: 5152_6 (AutoDXT, 8X8)
+[2019.02.20-11.36.46:922][468]LogMaterial: Missing cached shader map for material Material_191, compiling. 
+[2019.02.20-11.36.46:978][468]LogTexture:Display: Building textures: 4674_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.36.47:756][468]LogMaterial: Missing cached shader map for material Material_151, compiling. 
+[2019.02.20-11.36.48:188][468]LogMaterial: Missing cached shader map for material Grass, compiling. 
+[2019.02.20-11.36.48:329][468]LogTexture:Display: Building textures: book_occlusion (DXT1, 2048X2048)
+[2019.02.20-11.36.49:172][468]LogTexture:Display: Building textures: book_normals (BC5, 2048X2048)
+[2019.02.20-11.36.50:624][468]LogTexture:Display: Building textures: T_DustParticles_M (DXT1, 512X512)
+[2019.02.20-11.36.50:848][468]LogTexture:Display: Building textures: T_CoatHookBack_M (AutoDXT, 1024X1024)
+[2019.02.20-11.36.51:371][468]LogMaterial: Missing cached shader map for material M_Black_MAT, compiling. 
+[2019.02.20-11.36.52:027][468]LogTexture:Display: Building textures: T_SlidingDoor_AOMask (DXT1, 2048X2048)
+[2019.02.20-11.36.54:254][468]LogTexture:Display: Building textures: T_SlidingDoor_N (BC5, 2048X2048)
+[2019.02.20-11.36.55:024][468]LogTexture:Display: Building textures: T_SlidingDoor_M (DXT1, 2048X2048)
+[2019.02.20-11.36.55:567][468]LogMaterial: Missing cached shader map for material M_SlidingDoor_Mat, compiling. 
+[2019.02.20-11.36.55:743][468]LogTexture:Display: Building textures: T_Shelving_N (BC5, 2048X2048)
+[2019.02.20-11.36.56:485][468]LogTexture:Display: Building textures: T_Shelving_M (AutoDXT, 2048X2048)
+[2019.02.20-11.36.57:784][468]LogTexture:Display: Building textures: T_RoundCeilingLight_N (BC5, 1024X1024)
+[2019.02.20-11.36.57:977][468]LogTexture:Display: Building textures: T_RoundCeilingLight_AO (DXT1, 1024X1024)
+[2019.02.20-11.36.58:372][468]LogMaterial: Missing cached shader map for material M_RoundCeilingLight_Mat, compiling. 
+[2019.02.20-11.36.58:930][468]LogTexture:Display: Building textures: T_PlantSoil_N (BC5, 2048X2048)
+[2019.02.20-11.37.00:363][468]LogTexture:Display: Building textures: T_PlantSoil_D (DXT1, 2048X2048)
+[2019.02.20-11.37.09:087][468]LogTexture:Display: Building textures: T_PlantPot_N (BC5, 2048X2048)
+[2019.02.20-11.37.09:871][468]LogTexture:Display: Building textures: T_PlantPot_M (DXT1, 2048X2048)
+[2019.02.20-11.37.11:346][468]LogTexture:Display: Building textures: T_PlantLeaf_N (BC5, 2048X2048)
+[2019.02.20-11.37.11:899][468]LogTexture:Display: Building textures: T_PlantLeaf_M (DXT1, 2048X2048)
+[2019.02.20-11.37.12:528][468]LogTexture:Display: Building textures: T_PlantLeaf_D (DXT1, 2048X2048)
+[2019.02.20-11.37.14:369][468]LogTexture:Display: Building textures: T_PlantBark_D (DXT1, 512X2048)
+[2019.02.20-11.37.16:227][468]LogTexture:Display: Building textures: 4669_3 (AutoDXT, 8X8)
+[2019.02.20-11.37.16:227][468]LogTexture:Display: Building textures: 4665_2 (AutoDXT, 8X8)
+[2019.02.20-11.37.16:230][468]LogMaterial: Missing cached shader map for material Material_149, compiling. 
+[2019.02.20-11.37.16:271][468]LogTexture:Display: Building textures: 4655_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.17:050][468]LogTexture:Display: Building textures: 6182_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.18:034][468]LogTexture:Display: Building textures: 6178_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.18:807][468]LogMaterial: Missing cached shader map for material Material_238, compiling. 
+[2019.02.20-11.37.18:939][468]LogMaterial: Missing cached shader map for material Material_235, compiling. 
+[2019.02.20-11.37.19:259][468]LogTexture:Display: Building textures: eb_dresser_01_n (BC5, 2048X2048)
+[2019.02.20-11.37.20:399][468]LogTexture:Display: Building textures: eb_dresser_01_g (AutoDXT, 2048X2048)
+[2019.02.20-11.37.23:923][468]LogTexture:Display: Building textures: eb_dresser_01_c (AutoDXT, 2048X2048)
+[2019.02.20-11.37.28:612][468]LogTexture:Display: Building textures: It_035_Kitchen (AutoDXT, 64X64)
+[2019.02.20-11.37.28:685][468]LogTexture:Display: Building textures: 5139_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.29:134][468]LogTexture:Display: Building textures: 5143_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.29:898][468]LogTexture:Display: Building textures: 5134_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.30:552][468]LogTexture:Display: Building textures: 5130_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.30:987][468]LogMaterial: Missing cached shader map for material Material_179, compiling. 
+[2019.02.20-11.37.31:002][468]LogTexture:Display: Building textures: 5152_3 (AutoDXT, 8X8)
+[2019.02.20-11.37.31:005][468]LogMaterial: Missing cached shader map for material Material_185, compiling. 
+[2019.02.20-11.37.31:022][468]LogTexture:Display: Building textures: 5148_2 (AutoDXT, 8X8)
+[2019.02.20-11.37.31:057][468]LogTexture:Display: Building textures: 5148_5 (AutoDXT, 8X8)
+[2019.02.20-11.37.31:057][468]LogTexture:Display: Building textures: 5152_5 (AutoDXT, 8X8)
+[2019.02.20-11.37.31:085][468]LogTexture:Display: Building textures: 5152_4 (AutoDXT, 8X8)
+[2019.02.20-11.37.31:085][468]LogTexture:Display: Building textures: 5148_4 (AutoDXT, 8X8)
+[2019.02.20-11.37.31:088][468]LogMaterial: Missing cached shader map for material Material_187, compiling. 
+[2019.02.20-11.37.31:218][468]LogTexture:Display: Building textures: 3653_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.32:662][468]LogTexture:Display: Building textures: 3649_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.33:489][468]LogMaterial: Missing cached shader map for material Material_61, compiling. 
+[2019.02.20-11.37.33:700][468]LogTexture:Display: Building textures: 4645_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.34:465][468]LogMaterial: Missing cached shader map for material Material_145, compiling. 
+[2019.02.20-11.37.34:598][468]LogTexture:Display: Building textures: knife010_0 (AutoDXT, 128X128)
+[2019.02.20-11.37.34:608][468]LogTexture:Display: Building textures: It_042_chair (AutoDXT, 32X32)
+[2019.02.20-11.37.34:614][468]LogMaterial: Missing cached shader map for material chair_mat, compiling. 
+[2019.02.20-11.37.34:701][468]LogTexture:Display: Building textures: It_039_wallClock (AutoDXT, 64X128)
+[2019.02.20-11.37.34:879][468]LogTexture:Display: Building textures: 6098_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.35:927][468]LogTexture:Display: Building textures: 6094_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.36:698][468]LogMaterial: Missing cached shader map for material Material_229, compiling. 
+[2019.02.20-11.37.36:733][468]LogTexture:Display: Building textures: 6088_2 (BGRA8, 457X343)
+[2019.02.20-11.37.36:848][468]LogMaterial: Missing cached shader map for material shadow_mat, compiling. 
+[2019.02.20-11.37.36:910][468]LogTexture:Display: Building textures: It_069_bed01 (AutoDXT, 64X64)
+[2019.02.20-11.37.36:952][468]LogTexture:Display: Building textures: It_038_counter_center (AutoDXT, 64X32)
+[2019.02.20-11.37.36:958][468]LogMaterial: Missing cached shader map for material It_038_counter_center2, compiling. 
+[2019.02.20-11.37.37:120][468]LogTexture:Display: Building textures: 1120_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.38:809][468]LogTexture:Display: Building textures: 1116_2 (AutoDXT, 2048X2048)
+[2019.02.20-11.37.39:524][468]LogMaterial: Missing cached shader map for material Material_71, compiling. 
+[2019.02.20-11.37.39:551][468]LogTexture:Display: Building textures: SprintUIIcon (BGRA8, 47X53)
+[2019.02.20-11.37.39:648][468]LogTexture:Display: Building textures: It_015_tree1 (AutoDXT, 128X128)
+[2019.02.20-11.37.39:698][468]LogMaterial: Missing cached shader map for material tree_02_mat, compiling. 
+[2019.02.20-11.37.39:732][468]LogTexture:Display: Building textures: It_014_tree1 (AutoDXT, 128X128)
+[2019.02.20-11.37.39:989][468]LogMaterial: Missing cached shader map for material knife010_mat, compiling. 
+[2019.02.20-11.37.40:069][468]LogTexture:Display: Building textures: It_038_counter_edge (AutoDXT, 64X32)
+[2019.02.20-11.37.40:081][468]LogMaterial: Missing cached shader map for material It_038_counter_side, compiling. 
+[2019.02.20-11.37.40:188][468]LogTexture:Display: Building textures: It_032_bureau (AutoDXT, 64X64)
+[2019.02.20-11.37.40:424][468]LogTexture:Display: Building textures: Bd_013_PrivateDwelling (AutoDXT, 128X128)
+[2019.02.20-11.37.40:446][468]LogMaterial: Missing cached shader map for material house_mat, compiling. 
+[2019.02.20-11.37.40:499][468]LogTexture:Display: Building textures: Wall_Color (AutoDXT, 1024X1024)
+[2019.02.20-11.37.40:700][468]LogMaterial: Missing cached shader map for material Wall_Material, compiling. 
+[2019.02.20-11.37.40:865][468]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.20-11.37.42:240][468]Cmd: MAP LOAD FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.20-11.37.42:241][468]LightingResults: New page: Lighting Build
+[2019.02.20-11.37.42:242][468]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2019.02.20-11.37.42:282][468]MapCheck: New page: Map Check
+[2019.02.20-11.37.42:282][468]LightingResults: New page: Lighting Build
+[2019.02.20-11.37.43:112][468]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.20-11.37.43:225][468]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.20-11.37.43:396][468]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 170.165ms to complete.
+[2019.02.20-11.37.43:399][468]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.212
+[2019.02.20-11.37.45:060][471]LogHttp:Warning: 000002D49DD1DF00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.37.45:060][471]LogHttp:Warning: 000002D49DD1DF00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.37.45:060][471]LogHttp:Warning: 000002D49DD1DF00: libcurl info message cache 1 (Closing connection 1)
+[2019.02.20-11.38.10:606][547]LogSlate: Took 0.024209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.02.20-11.38.56:465][716]LogHttp:Warning: 000002D495B72080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.38.56:466][716]LogHttp:Warning: 000002D495B72080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.38.56:466][716]LogHttp:Warning: 000002D495B72080: libcurl info message cache 1 (Closing connection 2)
+[2019.02.20-11.39.56:555][314]LogHttp:Warning: 000002D4AE7D5180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.39.56:556][314]LogHttp:Warning: 000002D4AE7D5180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.39.56:556][314]LogHttp:Warning: 000002D4AE7D5180: libcurl info message cache 1 (Closing connection 3)
+[2019.02.20-11.40.56:592][913]LogHttp:Warning: 000002D4AEB12C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.40.56:592][913]LogHttp:Warning: 000002D4AEB12C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.40.56:592][913]LogHttp:Warning: 000002D4AEB12C80: libcurl info message cache 1 (Closing connection 4)
+[2019.02.20-11.42.11:702][313]LogTexture:Display: Building textures: T_Socket_N (BC5, 2048X2048)
+[2019.02.20-11.42.12:301][313]LogTexture:Display: Building textures: T_Socket_M (AutoDXT, 2048X2048)
+[2019.02.20-11.42.18:306][339]LogStaticMesh: Building static mesh Wire1...
+[2019.02.20-11.42.18:352][339]LogStaticMesh: Built static mesh [0.05s] /Game/ArchVis/Mesh/Wire1.Wire1
+[2019.02.20-11.42.21:226][339]LogRenderer: Reallocating scene render targets to support 1072x756 NumSamples 1 (Frame:1).
+[2019.02.20-11.42.56:637][ 62]LogHttp:Warning: 000002D4AB80FD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.42.56:637][ 62]LogHttp:Warning: 000002D4AB80FD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.42.56:637][ 62]LogHttp:Warning: 000002D4AB80FD00: libcurl info message cache 1 (Closing connection 5)
+[2019.02.20-11.42.58:631][ 91]LogTexture:Display: Building textures: T_PaintedWall_N (BC5, 2048X2048)
+[2019.02.20-11.42.59:390][ 91]LogMaterial: Missing cached shader map for material M_WallPainInterior_MAT, compiling. 
+[2019.02.20-11.42.59:615][ 91]LogStaticMesh: Building static mesh SM_WallPiece3...
+[2019.02.20-11.42.59:631][ 91]LogStaticMesh: Built static mesh [0.02s] /Game/ArchVis/Mesh/SM_WallPiece3.SM_WallPiece3
+[2019.02.20-11.42.59:663][ 91]LogStaticMesh: Building static mesh SM_WallPiece2...
+[2019.02.20-11.42.59:676][ 91]LogStaticMesh: Built static mesh [0.01s] /Game/ArchVis/Mesh/SM_WallPiece2.SM_WallPiece2
+[2019.02.20-11.42.59:703][ 91]LogStaticMesh: Building static mesh SM_WallPiece1...
+[2019.02.20-11.42.59:717][ 91]LogStaticMesh: Built static mesh [0.01s] /Game/ArchVis/Mesh/SM_WallPiece1.SM_WallPiece1
+[2019.02.20-11.42.59:729][ 91]LogStaticMesh: Building static mesh SM_Socket...
+[2019.02.20-11.42.59:743][ 91]LogStaticMesh: Built static mesh [0.01s] /Game/ArchVis/Mesh/SM_Socket.SM_Socket
+[2019.02.20-11.43.54:924][890]LogTexture:Display: Building textures: T_WoodFloor_AO (DXT1, 2048X2048)
+[2019.02.20-11.43.55:938][890]LogTexture:Display: Building textures: T_DustnScratches_N (BC5, 2048X2048)
+[2019.02.20-11.43.56:762][890]LogTexture:Display: Building textures: T_WoodFloor_N (BC5, 2048X2048)
+[2019.02.20-11.43.57:365][890]LogTexture:Display: Building textures: T_DustnScratches_M (DXT1, 2048X2048)
+[2019.02.20-11.43.59:036][890]LogMaterial: Missing cached shader map for material M_WoodFloor_MAT, compiling. 
+[2019.02.20-11.44.30:854][337]LogTexture:Display: Building textures: T_MugLogo_D (AutoDXT, 512X512)
+[2019.02.20-11.44.31:051][337]LogTexture:Display: Building textures: T_Mug_N (BC5, 2048X2048)
+[2019.02.20-11.44.31:620][337]LogTexture:Display: Building textures: T_Mug_M (AutoDXT, 2048X2048)
+[2019.02.20-11.44.32:986][337]LogMaterial: Missing cached shader map for material M_Mug, compiling. 
+[2019.02.20-11.44.54:058][554]LogStaticMesh: Building static mesh SM_CeilingPiece...
+[2019.02.20-11.44.54:093][554]LogStaticMesh: Built static mesh [0.03s] /Game/ArchVis/Mesh/SM_CeilingPiece.SM_CeilingPiece
+[2019.02.20-11.44.56:363][558]LogHttp:Warning: 000002D496931480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.44.56:363][558]LogHttp:Warning: 000002D496931480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.44.56:363][558]LogHttp:Warning: 000002D496931480: libcurl info message cache 1 (Closing connection 6)
+[2019.02.20-11.45.08:962][667]LogStaticMesh: Building static mesh SM_Balcony...
+[2019.02.20-11.45.08:978][667]LogStaticMesh: Built static mesh [0.02s] /Game/ArchVis/Mesh/SM_Balcony.SM_Balcony
+[2019.02.20-11.45.12:391][694]LogStaticMesh: Building static mesh S_Trim_Floor...
+[2019.02.20-11.45.12:423][694]LogStaticMesh: Built static mesh [0.03s] /Game/ArchVis/Mesh/S_Trim_Floor.S_Trim_Floor
+[2019.02.20-11.45.16:200][726]LogTexture:Display: Building textures: T_Plug_N (BC5, 1024X1024)
+[2019.02.20-11.45.16:341][726]LogMaterial: Missing cached shader map for material M_Plug, compiling. 
+[2019.02.20-11.45.23:390][794]LogStaticMesh: Building static mesh CoatHook...
+[2019.02.20-11.45.23:416][794]LogStaticMesh: Built static mesh [0.05s] /Game/ArchVis/Mesh/CoatHook.CoatHook
+[2019.02.20-11.45.23:574][794]LogTexture:Display: Building textures: T_CoatHook_N (BC5, 1024X1024)
+[2019.02.20-11.45.23:727][794]LogTexture:Display: Building textures: T_Coathook_M (AutoDXT, 1024X1024)
+[2019.02.20-11.45.56:590][161]LogHttp:Warning: 000002D49DC9C400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.45.56:590][161]LogHttp:Warning: 000002D49DC9C400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.45.56:590][161]LogHttp:Warning: 000002D49DC9C400: libcurl info message cache 1 (Closing connection 7)
+[2019.02.20-11.46.56:988][ 24]LogHttp:Warning: 000002D49E5E2380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.46.56:988][ 24]LogHttp:Warning: 000002D49E5E2380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.46.56:988][ 24]LogHttp:Warning: 000002D49E5E2380: libcurl info message cache 1 (Closing connection 8)
+[2019.02.20-11.48.56:782][923]LogHttp:Warning: 000002D4849F4A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.48.56:783][923]LogHttp:Warning: 000002D4849F4A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.48.56:783][923]LogHttp:Warning: 000002D4849F4A00: libcurl info message cache 1 (Closing connection 9)
+[2019.02.20-11.49.56:762][126]LogHttp:Warning: 000002D495A26980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.49.56:762][126]LogHttp:Warning: 000002D495A26980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.49.56:762][126]LogHttp:Warning: 000002D495A26980: libcurl info message cache 1 (Closing connection 10)
+[2019.02.20-11.51.18:499][ 38]LogTexture:Display: Building textures: T_Background_D (AutoDXT, 4096X2048)
+[2019.02.20-11.51.28:000][ 38]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.02.20-11.51.37:768][483]LogTexture:Display: Building textures: T_Galvanized_D (DXT1, 2048X2048)
+[2019.02.20-11.51.56:471][729]LogHttp:Warning: 000002D56EDCDD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.51.56:471][729]LogHttp:Warning: 000002D56EDCDD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.51.56:472][729]LogHttp:Warning: 000002D56EDCDD80: libcurl info message cache 1 (Closing connection 11)
+[2019.02.20-11.52.07:873][982]LogTexture:Display: Building textures: T_Background_Night_D (AutoDXT, 4096X2048)
+[2019.02.20-11.52.20:759][ 68]LogTexture:Display: Building textures: T_Carpet_D (DXT1, 2048X2048)
+[2019.02.20-11.52.47:234][785]LogTexture:Display: Building textures: T_CubeMap_Cube (DXT1, 1024X1024)
+[2019.02.20-11.52.56:763][105]LogHttp:Warning: 000002D50DFCAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.52.56:763][105]LogHttp:Warning: 000002D50DFCAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.52.56:763][105]LogHttp:Warning: 000002D50DFCAE00: libcurl info message cache 1 (Closing connection 12)
+[2019.02.20-11.53.19:833][513]LogMaterial: Missing cached shader map for material Carpet, compiling. 
+[2019.02.20-11.53.25:600][546]LogMaterial: Missing cached shader map for material M_Background_dome, compiling. 
+[2019.02.20-11.53.28:500][569]LogMaterial: Missing cached shader map for material M_Background_Mat, compiling. 
+[2019.02.20-11.53.46:348][686]LogTexture:Display: Building textures: T_Carpet_M (DXT1, 2048X2048)
+[2019.02.20-11.53.49:523][686]LogTexture:Display: Building textures: T_Carpet_N (BC5, 2048X2048)
+[2019.02.20-11.54.07:264][812]LogTexture:Display: Building textures: T_coffeeStain_M (AutoDXT, 1024X1024)
+[2019.02.20-11.54.56:704][240]LogHttp:Warning: 000002D57F582E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.54.56:705][240]LogHttp:Warning: 000002D57F582E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.54.56:705][240]LogHttp:Warning: 000002D57F582E00: libcurl info message cache 1 (Closing connection 13)
+[2019.02.20-11.54.56:774][240]LogMaterial: Missing cached shader map for material M_LightFunction_Flicker, compiling. 
+[2019.02.20-11.55.02:478][307]LogMaterial: Missing cached shader map for material M_Glas_MAt, compiling. 
+[2019.02.20-11.55.24:952][470]LogTexture:Display: Building textures: T_Railing_N (BC5, 2048X2048)
+[2019.02.20-11.55.25:690][470]LogTexture:Display: Building textures: T_Railing_AOMASK (DXT1, 2048X2048)
+[2019.02.20-11.55.26:763][470]LogTexture:Display: Building textures: T_Galvanized_N (BC5, 2048X2048)
+[2019.02.20-11.55.27:714][470]LogTexture:Display: Building textures: T_Galvanized_M (DXT1, 2048X2048)
+[2019.02.20-11.55.30:733][470]LogMaterial: Missing cached shader map for material M_Railing_MAT, compiling. 
+[2019.02.20-11.55.52:701][649]LogTexture:Display: Building textures: T_StoneMix_N (BC5, 2048X2048)
+[2019.02.20-11.55.53:782][649]LogTexture:Display: Building textures: T_StoneMix_D (DXT1, 2048X2048)
+[2019.02.20-11.55.59:527][649]LogTexture:Display: Building textures: T_Tiles_M (DXT1, 2048X2048)
+[2019.02.20-11.56.00:248][649]LogTexture:Display: Building textures: T_Tiles_N (BC5, 2048X2048)
+[2019.02.20-11.56.00:857][649]LogMaterial: Missing cached shader map for material M_WallPainExterior_MAT, compiling. 
+[2019.02.20-11.56.52:957][889]LogHttp:Warning: 000002D58A159180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.56.52:957][889]LogHttp:Warning: 000002D58A159180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.56.52:957][889]LogHttp:Warning: 000002D58A159180: libcurl info message cache 1 (Closing connection 14)
+[2019.02.20-11.57.55:471][935]LogTexture:Display: Building textures: T_TV_N (BC5, 2048X2048)
+[2019.02.20-11.57.58:031][938]LogHttp:Warning: 000002D592A6EE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.57.58:031][938]LogHttp:Warning: 000002D592A6EE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.57.58:031][938]LogHttp:Warning: 000002D592A6EE00: libcurl info message cache 1 (Closing connection 15)
+[2019.02.20-11.58.00:124][ 42]LogTexture:Display: Building textures: T_TV_M2 (AutoDXT, 2048X2048)
+[2019.02.20-11.58.03:651][121]LogTexture:Display: Building textures: T_TV_M (AutoDXT, 2048X2048)
+[2019.02.20-11.58.58:573][665]LogTexture:Display: Building textures: T_Painting_N (BC5, 2048X2048)
+[2019.02.20-11.59.01:975][720]LogTexture:Display: Building textures: T_Painting_D (AutoDXT, 2048X2048)
+[2019.02.20-11.59.08:872][782]LogTexture:Display: Building textures: T_Painting4_D (AutoDXT, 2048X2048)
+[2019.02.20-11.59.14:036][872]LogTexture:Display: Building textures: T_Painting3_D (AutoDXT, 2048X2048)
+[2019.02.20-11.59.18:325][932]LogTexture:Display: Building textures: T_Painting2_D (AutoDXT, 2048X2048)
+[2019.02.20-11.59.25:203][ 49]LogTexture:Display: Building textures: T_Paint_N (BC5, 512X512)
+[2019.02.20-11.59.38:695][432]LogTexture:Display: Building textures: T_Frame_N (BC5, 2048X2048)
+[2019.02.20-11.59.41:902][481]LogTexture:Display: Building textures: T_Frame_M (AutoDXT, 2048X2048)
+[2019.02.20-11.59.56:857][768]LogHttp:Warning: 000002D5986CCA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-11.59.56:857][768]LogHttp:Warning: 000002D5986CCA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-11.59.56:857][768]LogHttp:Warning: 000002D5986CCA00: libcurl info message cache 1 (Closing connection 16)
+[2019.02.20-12.01.28:908][693]LogTexture:Display: Building textures: IES_FlashLight (RGBA16F, 256X1)
+[2019.02.20-12.01.48:604][428]LogMaterial: Missing cached shader map for material _auto_2, compiling. 
+[2019.02.20-12.01.53:662][542]LogMaterial: Missing cached shader map for material _auto_, compiling. 
+[2019.02.20-12.01.56:557][578]LogHttp:Warning: 000002D4AB87BE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.01.56:557][578]LogHttp:Warning: 000002D4AB87BE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.01.56:557][578]LogHttp:Warning: 000002D4AB87BE80: libcurl info message cache 1 (Closing connection 17)
+[2019.02.20-12.02.56:952][680]LogHttp:Warning: 000002D5952BCA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.02.56:952][680]LogHttp:Warning: 000002D5952BCA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.02.56:953][680]LogHttp:Warning: 000002D5952BCA00: libcurl info message cache 1 (Closing connection 18)
+[2019.02.20-12.03.18:878][205]LogStaticMesh: Building static mesh Floor_400x400...
+[2019.02.20-12.03.18:911][205]LogStaticMesh: Built static mesh [0.03s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2019.02.20-12.04.22:418][208]LogHttp:Warning: 000002D590450700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.04.22:418][208]LogHttp:Warning: 000002D590450700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.04.22:418][208]LogHttp:Warning: 000002D590450700: libcurl info message cache 1 (Closing connection 19)
+[2019.02.20-12.05.40:225][966]LogMaterial: Missing cached shader map for material M_Brick_Clay_Beveled, compiling. 
+[2019.02.20-12.05.41:294][966]LogAIModule: Creating AISystem for world StarterMap
+[2019.02.20-12.05.42:019][966]Cmd: MAP LOAD FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.20-12.05.42:019][966]LightingResults: New page: Lighting Build
+[2019.02.20-12.05.42:021][966]LoadErrors: New page: Loading map: StarterMap.umap
+[2019.02.20-12.05.42:076][966]MapCheck: New page: Map Check
+[2019.02.20-12.05.42:076][966]LightingResults: New page: Lighting Build
+[2019.02.20-12.05.42:262][966]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.20-12.05.42:387][966]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.20-12.05.42:573][966]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 186.736ms to complete.
+[2019.02.20-12.05.42:573][966]LogFileHelpers: Loading map 'StarterMap' took 0.561
+[2019.02.20-12.05.50:872][159]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.20-12.05.50:909][159]Cmd: MAP LOAD FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.20-12.05.50:909][159]LightingResults: New page: Lighting Build
+[2019.02.20-12.05.50:910][159]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2019.02.20-12.05.50:912][159]MapCheck: New page: Map Check
+[2019.02.20-12.05.50:912][159]LightingResults: New page: Lighting Build
+[2019.02.20-12.05.50:950][159]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.20-12.05.51:006][159]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.20-12.05.51:127][159]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.123ms to complete.
+[2019.02.20-12.05.51:128][159]LogFileHelpers: Loading map 'Minimal_Default' took 0.220
+[2019.02.20-12.05.54:278][251]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2019.02.20-12.05.54:442][251]Cmd: MAP LOAD FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/StarterContent/Maps/Advanced_Lighting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.20-12.05.54:442][251]LightingResults: New page: Lighting Build
+[2019.02.20-12.05.54:443][251]LoadErrors: New page: Loading map: Advanced_Lighting.umap
+[2019.02.20-12.05.54:443][251]MapCheck: New page: Map Check
+[2019.02.20-12.05.54:443][251]LightingResults: New page: Lighting Build
+[2019.02.20-12.05.54:471][251]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.20-12.05.54:526][251]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.20-12.05.54:651][251]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.502ms to complete.
+[2019.02.20-12.05.54:652][251]LogFileHelpers: Loading map 'Advanced_Lighting' took 0.210
+[2019.02.20-12.05.56:574][336]LogHttp:Warning: 000002D49E762E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.05.56:574][336]LogHttp:Warning: 000002D49E762E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.05.56:574][336]LogHttp:Warning: 000002D49E762E00: libcurl info message cache 1 (Closing connection 20)
+[2019.02.20-12.06.01:832][592]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.20-12.06.01:855][592]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.20-12.06.01:972][592]LogAIModule: Creating AISystem for world StarterMap
+[2019.02.20-12.06.15:288][943]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.20-12.06.15:324][943]Cmd: MAP LOAD FILE="E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.20-12.06.15:325][943]LightingResults: New page: Lighting Build
+[2019.02.20-12.06.15:325][943]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2019.02.20-12.06.15:326][943]MapCheck: New page: Map Check
+[2019.02.20-12.06.15:326][943]LightingResults: New page: Lighting Build
+[2019.02.20-12.06.15:470][943]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.20-12.06.15:527][943]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.20-12.06.15:654][943]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 126.929ms to complete.
+[2019.02.20-12.06.15:654][943]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.330
+[2019.02.20-12.06.20:957][243]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.20-12.06.20:970][243]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2019.02.20-12.06.20:993][243]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.20-12.06.21:082][243]LogAIModule: Creating AISystem for world StarterMap
+[2019.02.20-12.07.10:212][659]LogHttp:Warning: 000002D59AC73D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.07.10:212][659]LogHttp:Warning: 000002D59AC73D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.07.10:212][659]LogHttp:Warning: 000002D59AC73D00: libcurl info message cache 1 (Closing connection 21)
+[2019.02.20-12.07.40:553][474]LogMaterial: Missing cached shader map for material Glass2, compiling. 
+[2019.02.20-12.07.40:647][474]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2019.02.20-12.08.42:450][615]LogHttp:Warning: 000002D5A0C19C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.08.42:450][615]LogHttp:Warning: 000002D5A0C19C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.08.42:450][615]LogHttp:Warning: 000002D5A0C19C00: libcurl info message cache 1 (Closing connection 22)
+[2019.02.20-12.09.49:450][ 70]LogHttp:Warning: 000002D5DA6F1A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.09.49:450][ 70]LogHttp:Warning: 000002D5DA6F1A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.09.49:450][ 70]LogHttp:Warning: 000002D5DA6F1A80: libcurl info message cache 1 (Closing connection 23)
+[2019.02.20-12.10.56:590][646]LogHttp:Warning: 000002D59AC70B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.10.56:590][646]LogHttp:Warning: 000002D59AC70B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.10.56:590][646]LogHttp:Warning: 000002D59AC70B80: libcurl info message cache 1 (Closing connection 24)
+[2019.02.20-12.11.56:652][826]LogHttp:Warning: 000002D49DDB1180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.11.56:652][826]LogHttp:Warning: 000002D49DDB1180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.11.56:652][826]LogHttp:Warning: 000002D49DDB1180: libcurl info message cache 1 (Closing connection 25)
+[2019.02.20-12.13.52:459][651]LogHttp:Warning: 000002D5B2623580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.13.52:459][651]LogHttp:Warning: 000002D5B2623580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.13.52:459][651]LogHttp:Warning: 000002D5B2623580: libcurl info message cache 1 (Closing connection 26)
+[2019.02.20-12.15.19:308][255]LogHttp:Warning: 000002D5B31B0700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.15.19:308][255]LogHttp:Warning: 000002D5B31B0700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.15.19:308][255]LogHttp:Warning: 000002D5B31B0700: libcurl info message cache 1 (Closing connection 27)
+[2019.02.20-12.17.07:071][196]LogHttp:Warning: 000002D5E8D2A380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.17.07:071][196]LogHttp:Warning: 000002D5E8D2A380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.17.07:071][196]LogHttp:Warning: 000002D5E8D2A380: libcurl info message cache 1 (Closing connection 28)
+[2019.02.20-12.19.00:277][715]LogHttp:Warning: 000002D5DE3EA500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.19.00:277][715]LogHttp:Warning: 000002D5DE3EA500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.19.00:277][715]LogHttp:Warning: 000002D5DE3EA500: libcurl info message cache 1 (Closing connection 29)
+[2019.02.20-12.20.56:899][699]LogHttp:Warning: 000002D5E60ED900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.20.56:899][699]LogHttp:Warning: 000002D5E60ED900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.20.56:899][699]LogHttp:Warning: 000002D5E60ED900: libcurl info message cache 1 (Closing connection 30)
+[2019.02.20-12.22.56:835][224]LogHttp:Warning: 000002D5E60EEE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.22.56:835][224]LogHttp:Warning: 000002D5E60EEE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.22.56:835][224]LogHttp:Warning: 000002D5E60EEE00: libcurl info message cache 1 (Closing connection 31)
+[2019.02.20-12.23.57:006][481]LogHttp:Warning: 000002D59AD86200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.23.57:006][481]LogHttp:Warning: 000002D59AD86200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.23.57:006][481]LogHttp:Warning: 000002D59AD86200: libcurl info message cache 1 (Closing connection 32)
+[2019.02.20-12.25.56:675][840]LogHttp:Warning: 000002D59AD87E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.25.56:675][840]LogHttp:Warning: 000002D59AD87E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.25.56:675][840]LogHttp:Warning: 000002D59AD87E80: libcurl info message cache 1 (Closing connection 33)
+[2019.02.20-12.26.04:700][931]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.02.20-12.26.05:159][932]Cmd: QUIT_EDITOR
+[2019.02.20-12.26.06:483][932]LogExit: Preparing to exit.
+[2019.02.20-12.26.07:730][932]LogExit: Editor shut down
+[2019.02.20-12.26.07:767][932]LogExit: Transaction tracking system shut down
+[2019.02.20-12.26.11:580][932]LogObj: Freed 0b from 0 cluster array pools.
+[2019.02.20-12.26.11:581][932]LogExit: Object subsystem successfully closed.
+[2019.02.20-12.26.11:795][932]LogD3D11RHI: Shutdown
+[2019.02.20-12.26.11:795][932]LogD3D11RHI: CleanupD3DDevice
+[2019.02.20-12.26.12:151][932]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.02.20-12.26.13:418][932]LogModuleManager: Shutting down and abandoning module TextureEditor (534)
+[2019.02.20-12.26.13:494][932]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (532)
+[2019.02.20-12.26.13:494][932]LogModuleManager: Shutting down and abandoning module AddContentDialog (530)
+[2019.02.20-12.26.13:521][932]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2019.02.20-12.26.13:529][932]LogModuleManager: Shutting down and abandoning module WidgetCarousel (529)
+[2019.02.20-12.26.13:529][932]LogModuleManager: Shutting down and abandoning module EditorWidgets (526)
+[2019.02.20-12.26.13:529][932]LogModuleManager: Shutting down and abandoning module WorldBrowser (524)
+[2019.02.20-12.26.13:586][932]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2019.02.20-12.26.13:587][932]LogDirectoryWatcher: A directory notification for 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/Collections/' was aborted.
+[2019.02.20-12.26.13:587][932]LogDirectoryWatcher: A directory notification for 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/Developers/DigitalSilence/Collections/' was aborted.
+[2019.02.20-12.26.13:587][932]LogDirectoryWatcher: A directory notification for 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Saved/Collections/' was aborted.
+[2019.02.20-12.26.13:587][932]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (520)
+[2019.02.20-12.26.13:595][932]LogModuleManager: Shutting down and abandoning module CrashTracker (518)
+[2019.02.20-12.26.13:595][932]LogModuleManager: Shutting down and abandoning module SceneOutliner (516)
+[2019.02.20-12.26.13:606][932]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2019.02.20-12.26.13:614][932]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2019.02.20-12.26.13:615][932]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2019.02.20-12.26.13:640][932]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2019.02.20-12.26.13:640][932]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2019.02.20-12.26.13:640][932]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2019.02.20-12.26.13:640][932]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2019.02.20-12.26.13:640][932]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2019.02.20-12.26.13:640][932]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2019.02.20-12.26.13:648][932]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2019.02.20-12.26.13:664][932]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2019.02.20-12.26.13:674][932]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2019.02.20-12.26.13:692][932]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2019.02.20-12.26.13:701][932]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2019.02.20-12.26.13:763][932]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2019.02.20-12.26.13:763][932]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2019.02.20-12.26.13:763][932]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2019.02.20-12.26.13:763][932]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2019.02.20-12.26.13:763][932]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2019.02.20-12.26.13:763][932]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2019.02.20-12.26.13:763][932]LogModuleManager: Shutting down and abandoning module Media (475)
+[2019.02.20-12.26.13:763][932]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2019.02.20-12.26.13:763][932]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2019.02.20-12.26.13:763][932]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2019.02.20-12.26.13:788][932]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2019.02.20-12.26.13:819][932]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2019.02.20-12.26.13:819][932]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2019.02.20-12.26.13:820][932]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2019.02.20-12.26.13:820][932]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2019.02.20-12.26.13:820][932]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2019.02.20-12.26.13:855][932]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2019.02.20-12.26.13:944][932]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2019.02.20-12.26.13:983][932]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2019.02.20-12.26.14:028][932]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2019.02.20-12.26.14:028][932]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2019.02.20-12.26.14:046][932]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2019.02.20-12.26.14:046][932]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2019.02.20-12.26.14:046][932]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2019.02.20-12.26.14:725][932]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2019.02.20-12.26.14:725][932]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2019.02.20-12.26.14:725][932]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2019.02.20-12.26.14:767][932]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2019.02.20-12.26.14:788][932]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2019.02.20-12.26.14:788][932]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2019.02.20-12.26.14:811][932]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2019.02.20-12.26.14:889][932]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2019.02.20-12.26.15:003][932]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2019.02.20-12.26.15:021][932]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2019.02.20-12.26.15:021][932]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2019.02.20-12.26.15:042][932]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2019.02.20-12.26.15:054][932]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2019.02.20-12.26.15:054][932]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2019.02.20-12.26.15:082][932]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2019.02.20-12.26.15:107][932]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2019.02.20-12.26.15:107][932]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2019.02.20-12.26.15:108][932]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2019.02.20-12.26.15:108][932]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2019.02.20-12.26.15:159][932]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2019.02.20-12.26.15:194][932]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2019.02.20-12.26.15:212][932]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2019.02.20-12.26.15:235][932]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2019.02.20-12.26.15:318][932]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2019.02.20-12.26.15:384][932]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2019.02.20-12.26.15:406][932]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2019.02.20-12.26.15:420][932]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2019.02.20-12.26.15:470][932]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2019.02.20-12.26.15:470][932]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2019.02.20-12.26.15:516][932]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2019.02.20-12.26.15:542][932]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2019.02.20-12.26.15:648][932]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2019.02.20-12.26.15:648][932]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2019.02.20-12.26.15:648][932]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2019.02.20-12.26.15:680][932]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2019.02.20-12.26.15:680][932]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2019.02.20-12.26.15:704][932]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2019.02.20-12.26.15:726][932]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2019.02.20-12.26.15:768][932]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2019.02.20-12.26.15:798][932]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2019.02.20-12.26.15:817][932]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2019.02.20-12.26.15:817][932]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2019.02.20-12.26.15:817][932]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2019.02.20-12.26.15:817][932]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2019.02.20-12.26.15:817][932]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2019.02.20-12.26.15:877][932]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2019.02.20-12.26.15:877][932]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2019.02.20-12.26.15:877][932]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2019.02.20-12.26.15:877][932]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2019.02.20-12.26.15:877][932]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2019.02.20-12.26.15:877][932]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2019.02.20-12.26.15:877][932]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2019.02.20-12.26.15:893][932]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2019.02.20-12.26.15:913][932]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2019.02.20-12.26.16:057][932]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2019.02.20-12.26.16:121][932]LogModuleManager: Shutting down and abandoning module SteamVRController (328)
+[2019.02.20-12.26.16:121][932]LogModuleManager: Shutting down and abandoning module SteamVR (326)
+[2019.02.20-12.26.16:121][932]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (324)
+[2019.02.20-12.26.16:140][932]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (322)
+[2019.02.20-12.26.16:168][932]LogModuleManager: Shutting down and abandoning module OculusLibrary (320)
+[2019.02.20-12.26.16:168][932]LogModuleManager: Shutting down and abandoning module OculusInput (318)
+[2019.02.20-12.26.16:168][932]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (316)
+[2019.02.20-12.26.16:168][932]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (314)
+[2019.02.20-12.26.16:168][932]LogModuleManager: Shutting down and abandoning module CableComponent (312)
+[2019.02.20-12.26.16:185][932]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (310)
+[2019.02.20-12.26.16:185][932]LogModuleManager: Shutting down and abandoning module AndroidPermission (308)
+[2019.02.20-12.26.16:185][932]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (304)
+[2019.02.20-12.26.16:223][932]LogModuleManager: Shutting down and abandoning module HTML5Networking (302)
+[2019.02.20-12.26.16:224][932]LogModuleManager: Shutting down and abandoning module AlembicImporter (300)
+[2019.02.20-12.26.16:240][932]LogModuleManager: Shutting down and abandoning module AlembicLibrary (299)
+[2019.02.20-12.26.16:240][932]LogModuleManager: Shutting down and abandoning module GeometryCache (298)
+[2019.02.20-12.26.16:251][932]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (297)
+[2019.02.20-12.26.16:251][932]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (292)
+[2019.02.20-12.26.16:251][932]LogModuleManager: Shutting down and abandoning module SuperSearch (291)
+[2019.02.20-12.26.16:251][932]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (288)
+[2019.02.20-12.26.16:251][932]LogModuleManager: Shutting down and abandoning module PluginBrowser (286)
+[2019.02.20-12.26.16:290][932]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (284)
+[2019.02.20-12.26.16:320][932]LogModuleManager: Shutting down and abandoning module DialogueSystemEditor (282)
+[2019.02.20-12.26.16:332][932]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2019.02.20-12.26.16:332][932]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2019.02.20-12.26.16:332][932]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2019.02.20-12.26.16:332][932]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2019.02.20-12.26.16:669][932]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2019.02.20-12.26.16:745][932]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2019.02.20-12.26.16:765][932]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2019.02.20-12.26.16:774][932]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2019.02.20-12.26.16:774][932]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2019.02.20-12.26.16:774][932]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2019.02.20-12.26.16:774][932]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2019.02.20-12.26.16:789][932]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2019.02.20-12.26.16:862][932]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2019.02.20-12.26.16:878][932]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2019.02.20-12.26.16:892][932]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2019.02.20-12.26.16:905][932]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2019.02.20-12.26.16:937][932]LogDirectoryWatcher: A directory notification for 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Binaries/Win64' was aborted.
+[2019.02.20-12.26.16:938][932]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2019.02.20-12.26.16:958][932]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2019.02.20-12.26.16:958][932]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2019.02.20-12.26.16:958][932]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2019.02.20-12.26.16:958][932]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2019.02.20-12.26.16:972][932]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2019.02.20-12.26.17:073][932]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2019.02.20-12.26.17:194][932]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2019.02.20-12.26.17:366][932]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (232)
+[2019.02.20-12.26.17:380][932]LogModuleManager: Shutting down and abandoning module FacialAnimation (230)
+[2019.02.20-12.26.17:380][932]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2019.02.20-12.26.17:416][932]LogModuleManager: Shutting down and abandoning module GraphEditor (227)
+[2019.02.20-12.26.17:536][932]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2019.02.20-12.26.17:537][932]LogModuleManager: Shutting down and abandoning module DialogueSystem (222)
+[2019.02.20-12.26.17:537][932]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2019.02.20-12.26.17:537][932]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2019.02.20-12.26.17:559][932]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2019.02.20-12.26.17:559][932]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2019.02.20-12.26.17:591][932]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2019.02.20-12.26.17:610][932]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2019.02.20-12.26.17:628][932]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2019.02.20-12.26.17:628][932]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2019.02.20-12.26.17:647][932]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2019.02.20-12.26.17:666][932]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2019.02.20-12.26.17:684][932]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2019.02.20-12.26.17:684][932]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2019.02.20-12.26.17:761][932]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2019.02.20-12.26.17:761][932]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2019.02.20-12.26.17:800][932]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2019.02.20-12.26.17:845][932]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2019.02.20-12.26.17:895][932]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2019.02.20-12.26.17:934][932]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2019.02.20-12.26.18:026][932]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2019.02.20-12.26.18:026][932]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2019.02.20-12.26.18:026][932]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2019.02.20-12.26.18:109][932]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2019.02.20-12.26.18:109][932]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2019.02.20-12.26.18:113][932]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2019.02.20-12.26.18:113][932]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2019.02.20-12.26.18:113][932]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2019.02.20-12.26.18:113][932]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2019.02.20-12.26.18:113][932]LogModuleManager: Shutting down and abandoning module Core (164)
+[2019.02.20-12.26.18:113][932]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2019.02.20-12.26.18:238][932]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.02.20-12.26.18:238][932]LogDirectoryWatcher: A directory notification for 'E:/Project Unreal Engine 4/Tugas KP/KP_remastered2/Content/' was aborted.
+[2019.02.20-12.26.18:238][932]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.02.20-12.26.18:238][932]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2019.02.20-12.26.18:288][932]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2019.02.20-12.26.18:294][932]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2019.02.20-12.26.18:295][932]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2019.02.20-12.26.18:295][932]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2019.02.20-12.26.18:295][932]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2019.02.20-12.26.18:317][932]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2019.02.20-12.26.18:348][932]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2019.02.20-12.26.18:348][932]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2019.02.20-12.26.18:378][932]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2019.02.20-12.26.18:381][932]LogDerivedDataCache: Shutdown
+[2019.02.20-12.26.18:381][932]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2019.02.20-12.26.18:381][932]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2019.02.20-12.26.18:410][932]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2019.02.20-12.26.18:429][932]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2019.02.20-12.26.18:452][932]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2019.02.20-12.26.18:474][932]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2019.02.20-12.26.18:485][932]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2019.02.20-12.26.18:485][932]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2019.02.20-12.26.18:485][932]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2019.02.20-12.26.18:485][932]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2019.02.20-12.26.18:502][932]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2019.02.20-12.26.18:502][932]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2019.02.20-12.26.18:502][932]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2019.02.20-12.26.18:502][932]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2019.02.20-12.26.18:502][932]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2019.02.20-12.26.18:502][932]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2019.02.20-12.26.18:502][932]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2019.02.20-12.26.18:502][932]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2019.02.20-12.26.18:502][932]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2019.02.20-12.26.18:502][932]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2019.02.20-12.26.18:503][932]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2019.02.20-12.26.18:503][932]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2019.02.20-12.26.18:503][932]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2019.02.20-12.26.18:503][932]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2019.02.20-12.26.18:503][932]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2019.02.20-12.26.18:536][932]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2019.02.20-12.26.18:536][932]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2019.02.20-12.26.18:563][932]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2019.02.20-12.26.18:577][932]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2019.02.20-12.26.18:602][932]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2019.02.20-12.26.18:628][932]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2019.02.20-12.26.18:628][932]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2019.02.20-12.26.18:641][932]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2019.02.20-12.26.18:642][932]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2019.02.20-12.26.18:642][932]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2019.02.20-12.26.18:642][932]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2019.02.20-12.26.18:642][932]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2019.02.20-12.26.18:642][932]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2019.02.20-12.26.18:642][932]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2019.02.20-12.26.18:642][932]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2019.02.20-12.26.18:642][932]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2019.02.20-12.26.18:642][932]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2019.02.20-12.26.18:642][932]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2019.02.20-12.26.18:642][932]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2019.02.20-12.26.18:658][932]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2019.02.20-12.26.18:658][932]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2019.02.20-12.26.18:682][932]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2019.02.20-12.26.18:682][932]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2019.02.20-12.26.18:682][932]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2019.02.20-12.26.18:683][932]LogOnline:Display: Unloading online subsystem: NULL
+[2019.02.20-12.26.18:722][932]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2019.02.20-12.26.18:758][932]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2019.02.20-12.26.18:758][932]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.02.20-12.26.18:772][932]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC525CA81-48B2-5379-4D89-27984C84D8D6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=2f47b7c0466259881f7828bd5c8f42c3%7C1fab5c387de34e3cb0e7e51dba2757c3%7Cae259bd4-1006-452b-be13-a8c820eb657e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.02.20-12.26.18:773][932]LogHttp:Warning: 000002D59AC9AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-12.26.18:773][932]LogHttp:Warning: 000002D59AC9AE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-12.26.18:773][932]LogHttp:Warning: 000002D59AC9AE00: libcurl info message cache 1 (Closing connection 34)
+[2019.02.20-12.26.18:776][932]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2019.02.20-12.26.18:791][932]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2019.02.20-12.26.18:853][932]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2019.02.20-12.26.18:869][932]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2019.02.20-12.26.18:869][932]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2019.02.20-12.26.18:915][932]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2019.02.20-12.26.18:915][932]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2019.02.20-12.26.18:915][932]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2019.02.20-12.26.18:915][932]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2019.02.20-12.26.18:949][932]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2019.02.20-12.26.18:982][932]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2019.02.20-12.26.18:982][932]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2019.02.20-12.26.19:000][932]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2019.02.20-12.26.19:000][932]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2019.02.20-12.26.19:000][932]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2019.02.20-12.26.19:000][932]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2019.02.20-12.26.19:020][932]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.02.20-12.26.19:029][932]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.02.20-12.26.19:049][932]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.02.20-12.26.19:090][932]LogExit: Exiting.
+[2019.02.20-12.26.19:112][932]Log file closed, 02/20/19 19:26:19
